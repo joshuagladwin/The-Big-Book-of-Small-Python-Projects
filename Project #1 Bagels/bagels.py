@@ -7,36 +7,35 @@ Tags: short, game, puzzle"""
 
 import random
 
-NUM_DIGITS = 3      # TODO: Try setting this to 1 or 10.
-MAX_GUESSES = 10    # TODO: Try setting this to 1 or 100.
-# TODO: Try designing a difficulty setting to change MAX_GUESSES and NUM_DIGITS
-
 
 def main():
-    print(f"""Bagels, a deductive logic game.
-    By Al Sweigart al@inventwithpython.com
-    
-    I am thinking of a {NUM_DIGITS} digit-number with no repeated digits.
-    Try to guess what it is. Here are some clues:
-    When I say:     That means:
-        Pico        One digit is correct but in the wrong position.
-        Fermi       One digit is correct and in the right position.
-        Bagels      No digit is correct.
+    print("""Bagels, a deductive logic game.
+By Al Sweigart al@inventwithpython.com""")
 
-    For example, if the secret number was 248 and your guess was 843, the
-    clues would be Fermi Pico.""")  # TODO: Try to create a version with letters as well as digits.
+    # Sets difficulty level.
+    num_digits, max_guesses = set_difficulty()
+
+    print(f"""I am thinking of a {num_digits} digit-number with no repeated digits.
+Try to guess what it is. Here are some clues:
+When I say:     That means:
+    Pico        One digit is correct but in the wrong position.
+    Fermi       One digit is correct and in the right position.
+    Bagels      No digit is correct.
+
+For example, if the secret number was 248 and your guess was 843, the
+clues would be Fermi Pico.""")  # TODO: Try to create a version with letters as well as digits.
 
     while True:  # Main game loop.
         # This stores the secret number the player needs to guess.
-        secret_num = get_secret_num()
+        secret_num = get_secret_num(num_digits)
         print("I have thought up a number.")
-        print(f"You have {MAX_GUESSES} guesses to get it.")
+        print(f"You have {max_guesses} guesses to get it.")
 
         num_guesses = 1
-        while num_guesses <= MAX_GUESSES:
+        while num_guesses <= max_guesses:
             guess = ''
             # Keep looping until they enter a valid guess:
-            while len(guess) != NUM_DIGITS or not guess.isdecimal():
+            while len(guess) != num_digits or not guess.isdecimal():
                 print(f"Guess #{num_guesses}: ")
                 guess = input("> ")
 
@@ -46,25 +45,25 @@ def main():
 
             if guess == secret_num:
                 break  # They're correct so break out of this loop.
-            if num_guesses > MAX_GUESSES:
+            if num_guesses > max_guesses:
                 print("You ran out of guesses.")
                 print(f"The answer was {secret_num}.")
 
-        # Ask the player if they want to play again.
+        # Ask the player if they want to play again.  TODO: Allow for changing difficulty at the end of each game.
         print("Do you want to play again? (yes or no)")
         if not input("> ").lower().startswith('y'):
             break
     print("Thanks for playing!")
 
 
-def get_secret_num():
-    """Returns a string made up of NUM_DIGITS unique random digits."""
+def get_secret_num(num_digits):
+    """Returns a string made up of num_digits unique random digits."""
     numbers = list('0123456789')  # Create a list of digits 0 to 9.
     random.shuffle(numbers)  # Shuffle them into a random order.
 
     # Get the first NUM_DIGITS digits in the list for the secret number:
     secret_num = ''
-    for i in range(NUM_DIGITS):
+    for i in range(num_digits):
         secret_num += str(numbers[i])
     return secret_num
 
@@ -92,6 +91,25 @@ def get_clues(guess, secret_num):
         clues.sort()
         # Make a single string from the list of string clues.
         return ' '.join(clues)
+
+
+def set_difficulty():
+    """Returns num_digits and max_guesses depending on difficulty as set by user."""
+
+    num_digits, max_guesses = 3, 10  # Default values
+
+    difficulty = ''
+
+    while not difficulty.lower().startswith(("e", "m", "h")):
+        print("Please select a difficulty level: (easy/medium/hard)")
+        difficulty = input("> ")
+
+    if difficulty.lower().startswith('e'):
+        num_digits, max_guesses = 2, 5
+    elif difficulty.lower().startswith('h'):
+        num_digits, max_guesses = 4, 8
+
+    return num_digits, max_guesses
 
 
 if __name__ == '__main__':

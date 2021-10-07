@@ -14,7 +14,8 @@ ___
 
 ## TODO List:
 
-* Try changing `NUM_DIGITS` to 1 or 10.
-* Try changing `MAX_GUESSES` to 1 or 100.
-* Try designing a difficulty setting to change `MAX_GUESSES` and `NUM_DIGITS`.
+* ~~Try changing `NUM_DIGITS` to 1 or 10.~~
+* ~~Try changing `MAX_GUESSES` to 1 or 100.~~
+* ~~Try designing a difficulty setting to change `MAX_GUESSES` and `NUM_DIGITS`.~~
+  * Allow for changing difficulty at the end of each game.
 * Try to create a version with letters as well as digits.
