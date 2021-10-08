@@ -61,6 +61,7 @@ print()
 # Generate and display the birthdays:
 print("Here are", num_b_days, "birthdays:")
 birthdays = get_birthdays(num_b_days)
+birthdays.sort()
 for i, birthday in enumerate(birthdays):
     if i != 0:
         # Display a comma for each birthday after the first birthday.

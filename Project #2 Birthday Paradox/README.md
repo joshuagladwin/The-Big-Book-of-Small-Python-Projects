@@ -14,7 +14,8 @@ ___
 * [x] ~~Change `!=` to `is none` for comparisons with `None`.~~
 
 Check for identity, not for equality with `None`. Objects may _equal_ `None` but that doesn't necessarily mean
-that they _are_ `None`.
+that they _are_ `None`. See [this Stack Overflow](https://stackoverflow.com/questions/1504717/why-does-comparing-strings-using-either-or-is-sometimes-produce-a-differe)
+question for more details.
 
 * [x] ~~Change multiple `print()` statements at end to one `print()` statement with a multi-line string.~~
 * [x] ~~Change date order from ISO to DMY;~~ 
@@ -26,5 +27,5 @@ that they _are_ `None`.
 Setting `start_of_year` to a leap year (e.g. 2020) and the `datetime.timedelta(random.randint(0, 365))`
 to a leap year allows for 29th Feb to occur in the birthdays.
 
-* [ ] Order dates when displaying to make it easier to see duplicates.
+* [x] ~~Order dates when displaying to make it easier to see duplicates.~~
 
