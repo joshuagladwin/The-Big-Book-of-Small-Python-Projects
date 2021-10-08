@@ -4,7 +4,8 @@ More info at https://en.wikipedia.org/wiki/Birthday_problem
 View this code at https://nostarch.com/big-book-small-python-projects
 Tags: short, math, simulation"""
 
-import datetime, random
+import datetime
+import random
 
 
 def get_birthdays(number_of_birthdays):
@@ -16,7 +17,7 @@ def get_birthdays(number_of_birthdays):
         start_of_year = datetime.date(2020, 1, 1)
 
         # Get a random day into the year:
-        random_number_of_days = datetime.timedelta(random.randint(0, 365)) # TODO: Handling leap years
+        random_number_of_days = datetime.timedelta(random.randint(0, 365))  # TODO: Weight of 29.2 in birthdays
         birthday = start_of_year + random_number_of_days
         birthdays.append(birthday)
     return birthdays
@@ -33,6 +34,19 @@ def get_match(birthdays):
         for b, birthday_b in enumerate(birthdays[a + 1:]):
             if birthday_a == birthday_b:
                 return birthday_a  # Return the matching birthday.
+
+
+def ordinal_suffix(day):
+    suffix = ''
+    if day in [1, 21, 31]:
+        suffix = 'st'
+    elif day in [2, 22]:
+        suffix = 'nd'
+    elif day in [3, 23]:
+        suffix = 'rd'
+    elif day in range(4, 21) or day in range(24, 31):
+        suffix = 'th'
+    return str(day) + suffix
 
 
 # Display the intro:
@@ -65,10 +79,10 @@ birthdays.sort()
 for i, birthday in enumerate(birthdays):
     if i != 0:
         # Display a comma for each birthday after the first birthday.
-        print(",", end=" ")
+        print(", ", end="")
     month_name = MONTHS[birthday.month - 1]
-    date_text = f"{birthday.day} {month_name}"  # TODO: how to display '-th'?
-    print(date_text, end=" ")
+    date_text = f"{ordinal_suffix(birthday.day)} {month_name}"
+    print(date_text, end="")
 print()
 print()
 
@@ -76,11 +90,11 @@ print()
 match = get_match(birthdays)
 
 # Display the results:
-print("In this simulation, ", end=" ")
+print("In this simulation, ", end="")
 if match is not None:
     month_name = MONTHS[match.month - 1]
-    date_text = f"{match.day} {month_name}"  # TODO: how to display '-th'?
-    print("multiple people have a birthday on", date_text)
+    date_text = f"{ordinal_suffix(match.day)} {month_name}"
+    print("for example, multiple people have a birthday on", date_text)  # TODO: Handle multiple duplicate birthdays
 else:
     print("there are no matching birthdays.")
 print()
