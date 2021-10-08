@@ -11,9 +11,20 @@ View the original code [here](https://nostarch.com/big-book-small-python-project
 ___
 
 ## TODO List:
-* Change `!=` to `is none` for comparisons with `None`.
-* Change multiple `print()` statements at end to one `print()` statement with a multi-line string.
-* Change date order from ISO to DMY; Can I add markers for ordinal numbers? (-_th_, -_st_, -_nd_, -_rd_)
-* Display full month names, (`Jan --> January`)
-* Add in 29th Feb.
-  * How can I handle 29th Feb being less frequent than other dates?
+* [x] ~~Change `!=` to `is none` for comparisons with `None`.~~
+
+Check for identity, not for equality with `None`. Objects may _equal_ `None` but that doesn't necessarily mean
+that they _are_ `None`.
+
+* [x] ~~Change multiple `print()` statements at end to one `print()` statement with a multi-line string.~~
+* [x] ~~Change date order from ISO to DMY;~~ 
+* [ ] Can I add markers for ordinal numbers? (-_th_, -_st_, -_nd_, -_rd_)
+* [x] ~~Display full month names, (`Jan --> January`)~~
+* [x] ~~Add in 29th Feb.~~ 
+  * [ ] How can I handle 29th Feb being less frequent than other dates?
+
+Setting `start_of_year` to a leap year (e.g. 2020) and the `datetime.timedelta(random.randint(0, 365))`
+to a leap year allows for 29th Feb to occur in the birthdays.
+
+* [ ] Order dates when displaying to make it easier to see duplicates.
+
