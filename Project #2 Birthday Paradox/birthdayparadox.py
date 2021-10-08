@@ -16,7 +16,7 @@ def get_birthdays(number_of_birthdays):
         start_of_year = datetime.date(2001, 1, 1)
 
         # Get a random day into the year:
-        random_number_of_days = datetime.timedelta(random.randint(0, 364))
+        random_number_of_days = datetime.timedelta(random.randint(0, 364)) # TODO: Add in 29th Feb. Handling leap years;
         birthday = start_of_year + random_number_of_days
         birthdays.append(birthday)
     return birthdays
@@ -66,7 +66,7 @@ for i, birthday in enumerate(birthdays):
         # Display a comma for each birthday after the first birthday.
         print(",", end=" ")
     month_name = MONTHS[birthday.month - 1]
-    date_text = f"{month_name} {birthday.day}"
+    date_text = f"{month_name} {birthday.day}"  # TODO: Change date order from ISO to DMY; how to display '-th';
     print(date_text, end=" ")
 print()
 print()
@@ -76,9 +76,9 @@ match = get_match(birthdays)
 
 # Display the results:
 print("In this simulation, ", end=" ")
-if match != None:
-    month_name = MONTHS[match.month - 1]
-    date_text = f"{month_name}{match.day}"
+if match != None:  # TODO: Change to `is not`;
+    month_name = MONTHS[match.month - 1]  # TODO: Display full month names;
+    date_text = f"{month_name}{match.day}"  # TODO: Change date order from ISO to DMY;
     print("multiple people have a birthday on", date_text)
 else:
     print("there are no matching birthdays.")
@@ -95,13 +95,13 @@ for i in range(100_000):
     if i % 10_000 == 0:
         print(i, "simulations run...")
     birthdays = get_birthdays(num_b_days)
-    if get_match(birthdays) != None:
+    if get_match(birthdays) != None:  # TODO: Change to `is not`;
         sim_match = sim_match + 1
 print("100,000 simulations run.")
 
 # Display simulation results:
 probability = round(sim_match / 100_000 * 100, 2)
-print("Out of 100,000 simulations of", num_b_days, "people, there was a")
+print("Out of 100,000 simulations of", num_b_days, "people, there was a")  # TODO: Change to single multi-line string;
 print("matching birthday in that group", sim_match, "times. This means")
 print("that", num_b_days, "people have a", probability, "% chance of")
 print("having a matching birthday in their group.")
