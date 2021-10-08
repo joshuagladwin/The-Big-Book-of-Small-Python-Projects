@@ -42,7 +42,7 @@ ___
 ## Extension Project - Lottery Paradox Simulation
 ### Premise
 
-Following on from this project and [Bagels](../Project%20#1%20Bagels), you could combine the two to create a Lottery 
+Following on from this project and [Bagels](https://github.com/joshuagladwin/The-Big-Book-of-Small-Python-Projects/tree/master/Project%20%231%20Bagels), you could combine the two to create a Lottery 
 Paradox Simulation.
 
 The [_Lotto_](https://en.wikipedia.org/wiki/National_Lottery_(United_Kingdom)#Lotto) is a lottery game run by the 
@@ -56,7 +56,7 @@ Yet despite these low odds, there is often more than one jackpot winner, matchin
 
 ### Task
 
-Making a 6-digit non-repeating number, as per [Bagels.py](../Project%20#1%20Bagels/Bagels.py), you could then run a simulation similar to the Birthday Paradox 
+Making a 6-digit non-repeating number, as per [Bagels.py](https://github.com/joshuagladwin/The-Big-Book-of-Small-Python-Projects/blob/master/Project%20%231%20Bagels/bagels.py), you could then run a simulation similar to the Birthday Paradox 
 to determine how the probability of there being more than one player with the same numbers changes as you increase the 
 number of players.
 
