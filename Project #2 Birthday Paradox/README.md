@@ -48,8 +48,7 @@ Paradox Simulation.
 The [_Lotto_](https://en.wikipedia.org/wiki/National_Lottery_(United_Kingdom)#Lotto) is a lottery game run by the 
 [National Lottery](https://en.wikipedia.org/wiki/National_Lottery_(United_Kingdom)) in the UK.
 
-In a standard 6-ball lottery draw, using the numbers 1-49[[^]](x "Since 2015, the Lotto has used the numbers 1-59, 
-but for the purposes here, it doesn't matter."), there is a [1 in 13,983,816 chance of winning](https://en.wikipedia.org/wiki/Lottery_mathematics). 
+In a standard 6-ball lottery draw, using the numbers 1-49, there is a [1 in 13,983,816 chance of winning](https://en.wikipedia.org/wiki/Lottery_mathematics). 
 There are usually tens of millions of players each draw.
 
 Yet despite these low odds, there is often more than one jackpot winner, matching all 6 numbers. [In one case](https://www.lottery.co.uk/lotto/results-14-01-1995), 133 players had chosen the same winning numbers and had to split the jackpot accordingly.
