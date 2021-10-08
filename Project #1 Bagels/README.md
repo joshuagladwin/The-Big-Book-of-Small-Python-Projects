@@ -6,7 +6,7 @@ A deductive logic game where you must guess a number based on clues.
 View the original code [here](https://nostarch.com/big-book-small-python-projects).
 
 A version of this game is featured in the book ["Invent Your Own
-Computer Games with Python"](https://nostarch.com/inventwithpython)
+Computer Games with Python"](https://nostarch.com/inventwithpython).
 
 **Tags**: _short_, _game_, _puzzle_
 ___
