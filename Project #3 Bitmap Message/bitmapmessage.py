@@ -5,35 +5,25 @@ Tags: tiny, beginner, artistic"""
 
 import sys
 
-# TODO: Try using different images.
+print("Bitmap Message, by Al Sweigart al@inventwithpython.com")
+
+while True:
+    image = ''
+    print("Please choose an image. (world or hello)")
+    image = input('> ')
+    if image.lower().startswith('w'):
+        image = 'world'
+        break # The user has picked "world"
+    elif image.lower().startswith('h'):
+        image = 'hello'
+        break # The user has picked "hello"
 
 # There are 68 periods along the top and bottom of this string:
 # (You can also copy and past this string from
 # https://inventwithpython.com/bitmapworld.txt)
-bitmap = """
-....................................................................
-   **************   *  *** **  *      ******************************
-  ********************* ** ** *  * ****************************** *
- **      *****************       ******************************
-          *************          **  * **** ** ************** *
-           *********            *******   **************** * *
-            ********           ***************************  *
-   *        * **** ***         *************** ******  ** *
-               ****  *         ***************   *** ***  *
-                 ******         *************    **   **  *
-                 ********        *************    *  ** ***
-                   ********         ********          * *** ****
-                   *********         ******  *        **** ** * **
-                   *********         ****** * *           *** *   *
-                     ******          ***** **             *****   *
-                     *****            **** *            ********
-                    *****             ****              *********
-                    ****              **                 *******   *
-                    ***                                       *    *
-                    **     *                    *
-...................................................................."""
+with open(f'bitmaps/bitmap{image}.txt') as f:  # Reads in the bitmap chosen by the user.
+    bitmap = f.read()
 
-print("Bitmap Message, by Al Sweigart al@inventwithpython.com")
 print("Enter the message to display with the bitmap.")
 message = input("> ")
 if message == '':
