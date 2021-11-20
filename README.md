@@ -10,3 +10,4 @@ Implementation of the projects found in ["The Big Book of Small Python Projects"
 | #3 [Bitmap Message](/Project%20%233%20Bitmap%20Message) | Displays a text message according to the provided bitmap image. | _tiny_, _beginner_, _artistic_ |
 | #4 [Blackjack](/Project%20%234%20Blackjack) | The classic card game also known as 21. | _large_, _game_, _card game_  | 
 | #5 [Bouncing DVD Logo](/Project%20%235%20Bouncing%20DVD%20Logo) | A bouncing DVD logo animation.  | _short_, _artistic_, _bext_ |
+| #6 [Caesar Cipher](/Project%20%236%20Caesar%20Cipher) | The Caesar cipher is a shift cipher that uses addition and subtraction to encrypt and decrypt letters. | _short_, _beginner_, _cryptography_, _math_ |

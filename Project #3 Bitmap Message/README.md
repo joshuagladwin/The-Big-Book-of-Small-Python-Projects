@@ -10,7 +10,7 @@ View the original code [here](https://nostarch.com/big-book-small-python-project
 **Tags**: _tiny_, _beginner_, _artistic_
 ___
 
-##TODO List
+##TODO List:
 * [x] ~~Try using different images.~~
   * [x] ~~Create a brief function to allow the user to choose the image.~~
 

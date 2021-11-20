@@ -12,7 +12,7 @@ View the original code [here](https://nostarch.com/big-book-small-python-project
 **Tags**: _large_, _game_, _card game_
 ____
 
-## TODO List
+## TODO List:
 
 ### Implement further rules:
 * [ ] [Splitting a hand.](https://en.wikipedia.org/wiki/Blackjack#Player_decisions)
