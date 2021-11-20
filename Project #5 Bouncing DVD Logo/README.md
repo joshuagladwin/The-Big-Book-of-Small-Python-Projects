@@ -16,5 +16,6 @@ ____
 * [ ] Try changing the number of logos.
 * [ ] Try changing the pause amount.
 * [ ] Try changing the colors.
+* [ ] Comment out ln62. What happens?
 * [ ] Change logo.
   * [ ] Allow for any length logo, i.e. remove hardcoded variables related to 'DVD'.
