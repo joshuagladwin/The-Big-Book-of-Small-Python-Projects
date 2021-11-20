@@ -8,4 +8,5 @@ Implementation of the projects found in ["The Big Book of Small Python Projects"
 | #1 [Bagels](/Project%20%231%20Bagels) | A deductive logic game where you must guess a number based on clues. | _short_, _game_, _puzzle_ |
 | #2 [Birthday Paradox](/Project%20%232%20Birthday%20Paradox) | Explore the surprising probabilities of the "Birthday Paradox". | _short_, _math_, _simulation_ |
 | #3 [Bitmap Message](/Project%20%233%20Bitmap%20Message) | Displays a text message according to the provided bitmap image. | _tiny_, _beginner_, _artistic_ |
-| #4 [Blackjack](/Project%20%234%20Blackjack)| The classic card game also known as 21. | _large_, _game_, _card game_  | 
+| #4 [Blackjack](/Project%20%234%20Blackjack) | The classic card game also known as 21. | _large_, _game_, _card game_  | 
+| #5 [Bouncing DVD Logo](/Project%20%235%20Bouncing%20DVD%20Logo) | A bouncing DVD logo animation.  | Tags: _short_, _artistic_, _bext_ |
