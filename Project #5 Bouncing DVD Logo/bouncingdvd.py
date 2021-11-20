@@ -22,9 +22,9 @@ WIDTH, HEIGHT = bext.size()
 # newline automatically, so reduce the width by one:
 WIDTH -= 1
 
-NUMBER_OF_LOGOS = 5  # TODO: Try changing this to 1 or 100.
-PAUSE_AMOUNT = 0.2  # TODO: Try changing this to 1.0 or 0.0.
-# TODO: Try changing this list to fewer colors:
+NUMBER_OF_LOGOS = 5
+PAUSE_AMOUNT = 0.2
+
 COLORS = ['red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white']
 
 UP_RIGHT = 'ur'
@@ -39,6 +39,9 @@ X = 'x'
 Y = 'y'
 DIR = 'direction'
 
+LOGO_TEXT = 'FLANCREST ENTERPRISES'  # Sets Logo text
+LOGO_LENGTH = len(LOGO_TEXT)  # Sets Logo length
+
 
 def main():
     bext.clear()
@@ -47,8 +50,8 @@ def main():
     logos = []
     for i in range(NUMBER_OF_LOGOS):
         logos.append({COLOR: random.choice(COLORS),
-                      X: random.randint(1, WIDTH - 4),
-                      Y: random.randint(1, HEIGHT - 4),
+                      X: random.randint(1, WIDTH - (LOGO_LENGTH + 1)),
+                      Y: random.randint(1, HEIGHT - (LOGO_LENGTH + 1)),
                       DIR: random.choice(DIRECTIONS)})
         if logos[-1][X] % 2 == 1:
             # Make sure X is even so it can hit the corner.
@@ -59,7 +62,7 @@ def main():
         for logo in logos:  # Handle each logo in the logos list.
             # Erase the logo's current location:
             bext.goto(logo[X], logo[Y])
-            print('    ', end='')  # TODO: Try commenting this line out.
+            print(LOGO_LENGTH * ' ', end='')
 
             original_direction = logo[DIR]
 
@@ -70,10 +73,10 @@ def main():
             elif logo[X] == 0 and logo[Y] >= HEIGHT - 1:
                 logo[DIR] = UP_RIGHT
                 corner_bounces += 1
-            elif logo[X] >= WIDTH - 3 and logo[Y] == 0:
+            elif logo[X] >= WIDTH - LOGO_LENGTH and logo[Y] == 0:
                 logo[DIR] = DOWN_LEFT
                 corner_bounces += 1
-            elif logo[X] >= WIDTH - 3 and logo[Y] >= HEIGHT - 1:
+            elif logo[X] >= WIDTH - LOGO_LENGTH and logo[Y] >= HEIGHT - 1:
                 logo[DIR] = UP_LEFT
                 corner_bounces += 1
 
@@ -85,9 +88,9 @@ def main():
 
             # See if the logo bounces off the right edge:
             # (WIDTH - 3 because 'DVD' has 3 letters.)
-            elif logo[X] >= WIDTH - 3 and logo[DIR] == UP_RIGHT:
+            elif logo[X] >= WIDTH - LOGO_LENGTH and logo[DIR] == UP_RIGHT:
                 logo[DIR] = UP_LEFT
-            elif logo[X] >= WIDTH - 3 and logo[DIR] == DOWN_RIGHT:
+            elif logo[X] >= WIDTH - LOGO_LENGTH and logo[DIR] == DOWN_RIGHT:
                 logo[DIR] = DOWN_LEFT
 
             # See if the logo bounces off the top edge:
@@ -130,7 +133,7 @@ def main():
             # Draw the logos at their new location:
             bext.goto(logo[X], logo[Y])
             bext.fg(logo[COLOR])
-            print('DVD', end='')
+            print(LOGO_TEXT, end='')
 
         bext.goto(0, 0)
 
