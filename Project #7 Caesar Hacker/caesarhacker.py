@@ -10,27 +10,32 @@ print("Caesar Cipher Hacker, by Al Sweigart al@inventwithpython.com")
 
 # Let the user specify the message to hack:
 print('Enter the encrypted Caesar cipher message to hack.')
-message = input('> ').upper()
+message = input('> ')
 
 # Every possible symbole tha can be encrypted/decrypted:
-# (This must match the SYMBOLS used when encrypting the message.)
-SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+# (This must match the symbols used when encrypting the message.)
+symbols = ''
+for i in range(0, 256):
+    if chr(i).isprintable():
+        symbols += chr(i)
 
-for key in range(len(SYMBOLS)):  # Loop through every possible key.
+symbols = symbols[::-1]
+
+for key in range(len(symbols)):  # Loop through every possible key.
     translated = ''
 
     # Decrypt each symbol in the message:
     for symbol in message:
-        if symbol in SYMBOLS:
-            num = SYMBOLS.find(symbol)  # Get the number of the symbol.
+        if symbol in symbols:
+            num = symbols.find(symbol)  # Get the number of the symbol.
             num = num - key  # Decrypt the number.
 
             # Handle the wrap-around if the number is less than 0:
             if num < 0:
-                num = num + len(SYMBOLS)
+                num = num + len(symbols)
 
             # Add decrypted number's symbol to translated:
-            translated = translated + SYMBOLS[num]
+            translated = translated + symbols[num]
         else:
             # Just add the symbol without decrypting:
             translated = translated + symbol

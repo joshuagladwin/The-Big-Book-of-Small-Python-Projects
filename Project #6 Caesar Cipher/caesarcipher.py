@@ -17,9 +17,9 @@ for i in range(0, 256):
         symbols += chr(i)
 
 # Adds in Cyrillic script:
-for i in range(1024, 1120):
-    if chr(i).isprintable():
-        symbols += chr(i)
+# for i in range(1024, 1120):
+#     if chr(i).isprintable():
+#         symbols += chr(i)
 
 
 print('Caesar Cipher, by Al Sweigart al@inventwithpython.com')
