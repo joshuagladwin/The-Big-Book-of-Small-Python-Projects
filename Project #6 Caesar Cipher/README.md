@@ -9,7 +9,7 @@ More info [here](https://en.wikipedia.org/wiki/Caesar_cipher).
 
 View the original code [here](https://nostarch.com/big-book-small-python-projects).
 
-**Tags**: _short_, _beginnner_, _cryptography_, _math_
+**Tags**: _short_, _beginner_, _cryptography_, _math_
 ____
 
 ## TODO List:

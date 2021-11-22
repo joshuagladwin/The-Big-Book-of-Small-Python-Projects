@@ -11,3 +11,4 @@ Implementation of the projects found in ["The Big Book of Small Python Projects"
 | #4 [Blackjack](/Project%20%234%20Blackjack) | The classic card game also known as 21. | _large_, _game_, _card game_  | 
 | #5 [Bouncing DVD Logo](/Project%20%235%20Bouncing%20DVD%20Logo) | A bouncing DVD logo animation.  | _short_, _artistic_, _bext_ |
 | #6 [Caesar Cipher](/Project%20%236%20Caesar%20Cipher) | The Caesar cipher is a shift cipher that uses addition and subtraction to encrypt and decrypt letters. | _short_, _beginner_, _cryptography_, _math_ |
+| #7 [Caesar Hacker](/Project%20%237%20Caesar%20Hacker) | This program hacks messages encrypted with the Caesar cipher by doing a brute force attack against every possible key. | _tiny_, _beginner_, _cryptography_, _math_ |
