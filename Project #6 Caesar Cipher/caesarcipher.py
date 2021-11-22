@@ -11,9 +11,16 @@ except ImportError:
     pass  # If pyperclip is not installed, do nothing. It's no big deal.
 
 # Every possible symbol that can be encrypted/decrypted:
-# TODO: You can add numbers and punctuation marks to encrypt those symbols as well;
-#  How else can this be extended?
-SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+symbols = ''
+for i in range(0, 256):
+    if chr(i).isprintable():
+        symbols += chr(i)
+
+# Adds in Cyrillic script:
+for i in range(1024, 1120):
+    if chr(i).isprintable():
+        symbols += chr(i)
+
 
 print('Caesar Cipher, by Al Sweigart al@inventwithpython.com')
 print('''The Caesar cipher encrypts letters by shifting them over by a 
@@ -35,13 +42,13 @@ while True:  # Keep asking until the user enters e or d.
 
 # Let the user enter the key to use:
 while True:  # Keep asking until the user enters a valid key.
-    max_key = len(SYMBOLS) - 1
+    max_key = len(symbols) - 1
     print(f"Please enter the key (0 to {max_key}) to use.")
     response = input('> ').upper()
     if not response.isdecimal():
         continue
 
-    if 0 <= int(response) < len(SYMBOLS):
+    if 0 <= int(response) < len(symbols):
         key = int(response)
         break
 
@@ -49,31 +56,28 @@ while True:  # Keep asking until the user enters a valid key.
 print(f'Enter the message to {mode}.')
 message = input('> ')
 
-# Caesar cipher only works on uppercase letters:
-message = message.upper()
-
 # Stores the encrypted/decrypted form of the message:
 translated = ''
 
 # Encrypt/decrypt each symbol in the message:
 for symbol in message:
-    if symbol in SYMBOLS:
+    if symbol in symbols:
         # Get the encrypted (or decrypted_ number for this symbol.
-        num = SYMBOLS.find(symbol)  # Get the number of the symbol.
+        num = symbols.find(symbol)  # Get the number of the symbol.
         if mode == 'encrypt':
             num = num + key
         elif mode == 'decrypt':
             num = num - key
 
         # Handle the wrap-around if nym is larger than the length of
-        # SYMBOLS or less than 0:
-        if num >= len(SYMBOLS):
-            num = num - len(SYMBOLS)
+        # symbols or less than 0:
+        if num >= len(symbols):
+            num = num - len(symbols)
         elif num < 0:
-            num = num + len(SYMBOLS)
+            num = num + len(symbols)
 
         # Add encrypted/decrypted number's symbol to translated:
-        translated = translated + SYMBOLS[num]
+        translated = translated + symbols[num]
     else:
         # Just add the symbol without encrypting/decrypting:
         translated = translated + symbol
