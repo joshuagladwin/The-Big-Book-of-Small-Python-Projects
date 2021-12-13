@@ -46,8 +46,8 @@ def get_calendar_for(year, month):
     cal_text += (' ' * 34) + MONTHS[month - 1] + ' ' + str(year) + '\n'
 
     # Add the days of the week labels to the calendar:
-    # (!) Try changing this to abbreviations: SUN, MON, TUE, etc. TODO
-    cal_text += '...Sunday.....Monday....Tuesday...Wednesday...Thursday....Friday....Saturday..\n'
+    # (!) Try changing this to abbreviations: SUN, MON, TUE, etc.
+    cal_text += '....SUN........MON........TUE........WED........THU........FRI........SAT....\n'
 
     # The horizontal line string that separate weeks:
     week_separator = ('+----------' * 7) + '+\n'
@@ -93,7 +93,7 @@ calText = get_calendar_for(year, month)
 print(calText)  # Display the calendar.
 
 # Save the calendar to a text file:
-calendar_filename = 'calendar_{}_{}.txt'.format(year, month)
+calendar_filename = f'calendar_{year}_{month}.txt'
 with open(calendar_filename, 'w') as fileObj:
     fileObj.write(calText)
 
