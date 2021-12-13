@@ -43,7 +43,7 @@ ____
 
 * [x] ~~Try changing days to abbreviations.~~
 
-Simply 
+This is simply accomplished by changing the days in the string to their abbreviations:
 
 ```
                                   December 2021
@@ -76,5 +76,50 @@ Simply
 +----------+----------+----------+----------+----------+----------+----------+
 ```
 
-* [ ] Allow for week to begin on any day of the week.
+* [x] ~~Allow for week to begin on any day of the week.~~
+
+The user is asked to input a day, which is then used to roll back the start of the calendar,
+instead of the default Sunday. (If no `start` is entered, the calendar defaults to Monday.)
+
+This is also used to reorder the days list at the top of the calendar, 
+to make sure they now align with the new start of the week day.
+
+The days list is also now created programmatically, concatenating `'....'` either side of the day,
+and slicing the 3-letter abbreviation from the `DAYS` constant.
+
+```
+                                  December 2021
+....FRI........SAT........SUN........MON........TUE........WED........THU....
++----------+----------+----------+----------+----------+----------+----------+
+|26        |27        |28        |29        |30        | 1        | 2        |
+|          |          |          |          |          |          |          |
+|          |          |          |          |          |          |          |
+|          |          |          |          |          |          |          |
++----------+----------+----------+----------+----------+----------+----------+
+| 3        | 4        | 5        | 6        | 7        | 8        | 9        |
+|          |          |          |          |          |          |          |
+|          |          |          |          |          |          |          |
+|          |          |          |          |          |          |          |
++----------+----------+----------+----------+----------+----------+----------+
+|10        |11        |12        |13        |14        |15        |16        |
+|          |          |          |          |          |          |          |
+|          |          |          |          |          |          |          |
+|          |          |          |          |          |          |          |
++----------+----------+----------+----------+----------+----------+----------+
+|17        |18        |19        |20        |21        |22        |23        |
+|          |          |          |          |          |          |          |
+|          |          |          |          |          |          |          |
+|          |          |          |          |          |          |          |
++----------+----------+----------+----------+----------+----------+----------+
+|24        |25        |26        |27        |28        |29        |30        |
+|          |          |          |          |          |          |          |
+|          |          |          |          |          |          |          |
+|          |          |          |          |          |          |          |
++----------+----------+----------+----------+----------+----------+----------+
+|31        | 1        | 2        | 3        | 4        | 5        | 6        |
+|          |          |          |          |          |          |          |
+|          |          |          |          |          |          |          |
+|          |          |          |          |          |          |          |
++----------+----------+----------+----------+----------+----------+----------+
+```
 
