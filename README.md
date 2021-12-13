@@ -15,3 +15,4 @@ Implementation of the projects found in ["The Big Book of Small Python Projects"
 | #8 [Calendar Maker](/Project%20%238%20Calendar%20Maker) | Create monthly calendars, saved to a text file and fit for printing. | _short_ |
 | #9 [Carrot in a Box](/Project%20%239%20Carrot%20in%20a%Box) | A silly bluffing game between two human players. | _large_, _beginner_, _game_, _two-player_ |
 | #10 [Cho-Han](/Project%20%2310%20Cho-Han) | The traditional Japanese dice game of even-odd. | _short_, _beginner_, _game_ |
+| #11 [Clickbait Headline Generator](/Project%20%2311%20Clickbait%20Headline%20Generator) | A clickbait headline generator for your soulless content farm website. | _large_, _beginner_, _humor_, _word_ |
