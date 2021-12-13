@@ -13,3 +13,4 @@ Implementation of the projects found in ["The Big Book of Small Python Projects"
 | #6 [Caesar Cipher](/Project%20%236%20Caesar%20Cipher) | The Caesar cipher is a shift cipher that uses addition and subtraction to encrypt and decrypt letters. | _short_, _beginner_, _cryptography_, _math_ |
 | #7 [Caesar Hacker](/Project%20%237%20Caesar%20Hacker) | This program hacks messages encrypted with the Caesar cipher by doing a brute force attack against every possible key. | _tiny_, _beginner_, _cryptography_, _math_ |
 | #8 [Calendar Maker](/Project%20%238%20Calendar%20Maker) | Create monthly calendars, saved to a text file and fit for printing. | _short_ |
+| #9 [Carrot in a Box](/Project%20%239%20Carrot%20in%20a%Box) | A silly bluffing game between two human players. | _large_, _beginner_, _game_, _two-player_ |
