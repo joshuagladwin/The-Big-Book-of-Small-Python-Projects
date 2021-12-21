@@ -20,28 +20,28 @@ ___
 
 There are a lot of [interesting ways to visualise the Collatz Sequence](https://www.google.com/search?q=collatz+sequence+visualisations&tbm=isch&ved=2ahUKEwj525nKjPX0AhUPsxoKHWx9BecQ2-cCegQIABAA&oq=collatz+sequence+visualisations&gs_lcp=CgNpbWcQA1CoBFioBGDKCGgAcAB4AIABTYgBlwGSAQEymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=AOTBYfnbFY_mauz6lbgO&bih=1315&biw=1279&client=firefox-b-d#imgrc=qb0IAMDxH71_8M). I wanted to give one of them a go, so I plugged the numbers generated from the sequence into a Plotly scatter plot:
 
-![](images\collatz_sequence_n10.png)
-![](images\collatz_sequence_n100.png)
+![](images/collatz_sequence_n10.png)
+![](images/collatz_sequence_n100.png)
 
 It's interesting to note the patterns and differences that occur in the sequence. For example, _n=1000_ takes a very circuitous path, taking over 100 steps and at one point reaching 9232, over 9 times the original starting _n_.
 
-![](images\collatz_sequence_n1000.png)
+![](images/collatz_sequence_n1000.png)
 
 In contrast, _n=10,000_ only takes 20 steps to reach 1 and smoothly reaches 1 with few dramatic changes in _n_. 
 
-![](images\collatz_sequence_n10000.png)
+![](images/collatz_sequence_n10000.png)
 
 As the sequences get closer to 1, they begin to converge. For instance, both _n_=100 and _n_=10,000 pass through _n_=88, but they arrive there from different routes (_n=10,000_ : _176/2_, _n=100_ : _3(29)+1_)
 
 Odd numbers become even numbers through _3n+1_, while even numbers can become either even or odd through _2/n_. The sequence is "trying to find" a power of 2. The powers of 2 tend directly to 1, never hitting an odd number:
 
-![](images\collatz_sequence_n1048576.png)
+![](images/collatz_sequence_n1048576.png)
 
-- (Collatz Sequence for 2²⁰, which only takes 20 steps to reach 1)
+(^Collatz Sequence for 2²⁰, which only takes 20 steps to reach 1)
 
-Other even numbers will eventually hit an odd number; the _3n+1_ function then "shifts" up, to the next path of even numbers to continue the search. You can see this clearly in _n=100_:
+Other even numbers will eventually hit an odd number; the _3n+1_ function then "shifts" up to the next path of even numbers to continue the search. You can see this clearly in _n=100_:
 
-![](images\collatz_sequence_n100.png)
+![](images/collatz_sequence_n100.png)
 
 When you plot the number of steps it takes for any given initial _n_, it produces interesting patterns:
 
