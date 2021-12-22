@@ -1,6 +1,6 @@
 """Cho-Han, by Al Sweigart al@inventwitpython.com
 The traditional Japanese dice game of even-odd.
-View this code at https://nostarch.com/big-book-small-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: short, beginner, game"""
 
 import random, sys

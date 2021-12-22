@@ -2,7 +2,7 @@
  The Caesar cipher is a shift cipher that uses addition and subtraction
  to encrypt and decrypt letters.
  More info at: https://en.wikipedia.org/wiki/Caesar_cipher
- View this code at https://nostarch.com/big-book-small-python-projects
+ View the original code at https://nostarch.com/big-book-small-python-projects
  Tags: short, beginner, cryptography, math"""
 
 try:

@@ -1,7 +1,7 @@
 """Collatz Sequence, by Al Sweigart al@inventwithpython.com
 Generates numbers for the Collatz sequence, given a starting number.
 More info at: https://en.wikipedia.org/wiki/Collatz_conjecture
-View this code at https://nostarch.com/big-book-small-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: tiny, beginner, math"""
 
 import sys, time

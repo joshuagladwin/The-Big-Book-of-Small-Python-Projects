@@ -17,3 +17,4 @@ Implementation of the projects found in ["The Big Book of Small Python Projects"
 | #10 [Cho-Han](/Project%20%2310%20Cho-Han) | The traditional Japanese dice game of even-odd. | _short_, _beginner_, _game_ |
 | #11 [Clickbait Headline Generator](/Project%20%2311%20Clickbait%20Headline%20Generator) | A clickbait headline generator for your soulless content farm website. | _large_, _beginner_, _humor_, _word_ |
 | #12 [Collatz Sequence](/Project%20%2312%20Collatz%20Sequence)| Generates numbers for the Collatz sequence, given a starting number. | _tiny_, _beginner_, _math_ |
+| #13 [Conway's Game of Life](/Project%20%2313%20Conway%27s%20Game%20of%20Life) | The classic cellular automata simulation. | _short_, _artistic_, _simulation_

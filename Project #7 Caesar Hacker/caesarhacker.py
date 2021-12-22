@@ -3,7 +3,7 @@
  a brute force attack against every possible key.
  More info at:
  https://en.wikipedia.org/wiki/Caesar_cipher#Breaking_the_cipher
- View this code at https://nostarch.com/big-book-small-python-projects
+ View the original code at https://nostarch.com/big-book-small-python-projects
  Tags: tiny, beginner, cryptography, math"""
 
 print("Caesar Cipher Hacker, by Al Sweigart al@inventwithpython.com")

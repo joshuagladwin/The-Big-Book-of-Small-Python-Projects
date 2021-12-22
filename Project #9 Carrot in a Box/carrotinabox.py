@@ -1,7 +1,7 @@
 """ Carrot in a Box, by Al Sweigart al@inventwithpython.com
 A silly bluffing game between two human players. Based on the game
-from the show [8 Out of 10 Cats](https://www.youtube.com/watch?v=0UGuPvrsG3E).
-View the original code [here](https://nostarch.com/big-book-small-python-projects).
+from the show 8 Out of 10 Cats https://www.youtube.com/watch?v=0UGuPvrsG3E.
+View the original code at https://nostarch.com/big-book-small-python-projects.
 Tags: large, beginner, game, two-player"""
 
 import random
