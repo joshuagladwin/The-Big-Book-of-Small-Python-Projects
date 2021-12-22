@@ -10,12 +10,12 @@ import copy, random, sys, time
 WIDTH = 79   # The width of the cell grid.
 HEIGHT = 20  # The height of the cell grid.
 
-# TODO: Try changing ALIVE to '#' or another character:
-ALIVE = 'O'  # The character representing a living cell.
-# TODO: Try changing DEAD to '.' or another character:
+
+ALIVE = '🦠'  # The character representing a living cell.
+
 DEAD = ' '  # The character representing a dead cell.
 
-# TODO: Try changing ALIVE to '|' and DEAD to '-'.
+
 
 # The cells and next_cells are dictionaries for the state of the game.
 # Their keys are (x, y) tuples and their values are one of the ALIVE
@@ -25,7 +25,7 @@ next_cells = {}
 for x in range(WIDTH):  # Loop over every possible columns.
     for y in range(HEIGHT):  # Loop over every possible row.
         # 50/50 chance for starting cells being alive or dead.
-        if random.randint(0, 1) == 0:
+        if random.randint(0, 10) == 0:
             next_cells[(x, y)] = ALIVE  # Add a living cell.
         else:
             next_cells[(x, y)] = DEAD  # Add a dead cell.
