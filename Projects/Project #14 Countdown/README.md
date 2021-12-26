@@ -15,4 +15,7 @@ View the original code [here](https://nostarch.com/big-book-small-python-project
 ___
 
 ## TODO List:
-* [ ] #
+* [x] ~~Allow for user to input time for timer.~~
+* [x] ~~Edit the output message at the end of the countdown.~~
+  * [x] ~~Figure out how to have the message "blink" like a digital watch or a text cursor.~~
+

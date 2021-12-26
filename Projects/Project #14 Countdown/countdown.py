@@ -5,17 +5,26 @@ More info at https://en.wikipedia.org/wiki/Seven-segment_display
 Requires sevseg.py to be in the same folder.
 View the original code at httsp://nostarch.com/big-book-small-python-projects
 Tags: tiny, artistic"""
-
+import os
 import sys, time
 import sevseg  # Imports out sevseg.py program.
 
-# TODO: Change this to any number of seconds:
-seconds_left = 60
+while True:
+    print("Please enter how long to set the timer: (in seconds)")
+    response = input('> ')
+
+    if response.isdecimal() and int(response) > 0:
+        seconds_left = int(response)
+        break
+
+    print('Please enter a whole number greater than 0.')
+    print()
+    continue
 
 try:
     while True:  # Main program loop.
         # Clear the screen by printing several newlines:
-        print('\n' * 60)
+        os.system('cls')
 
         # Get the hours/minutes/seconds from seconds_left:
         # For example: 7265 is 2 hours, 1 minute, 5 seconds.
@@ -42,8 +51,15 @@ try:
         print(h_bottom_row  + '  *  ' + m_bottom_row    + '  *  ' + s_bottom_row)
 
         if seconds_left == 0:
-            print()
-            print('    * * * * BOOM * * * *')
+            for i in range(0,10):
+                os.system('cls')
+                time.sleep(0.5)
+                print(h_top_row     + '     ' + m_top_row       + '     ' + s_top_row)
+                print(h_middle_row  + '  *  ' + m_middle_row    + '  *  ' + s_middle_row)
+                print(h_bottom_row  + '  *  ' + m_bottom_row    + '  *  ' + s_bottom_row)
+                print()
+                print('    * * * * TIME  ELAPSED * * * *    ')
+                time.sleep(0.5)
             break
 
         print()
