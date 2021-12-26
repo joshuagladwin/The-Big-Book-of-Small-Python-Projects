@@ -1,4 +1,4 @@
-#Calendar Maker
+# Calendar Maker
 ___
 _by Al Sweigart_ [al@inventwithpython.com](mailto:al@inventwithpython.com)
 
