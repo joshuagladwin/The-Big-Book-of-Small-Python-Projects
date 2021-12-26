@@ -13,11 +13,11 @@ Implementation of the projects found in ["The Big Book of Small Python Projects"
 | #6 [Caesar Cipher](/Projects/Project%20%2306%20Caesar%20Cipher) | The Caesar cipher is a shift cipher that uses addition and subtraction to encrypt and decrypt letters. | _short_, _beginner_, _cryptography_, _math_ |
 | #7 [Caesar Hacker](/Projects/Project%20%2307%20Caesar%20Hacker) | This program hacks messages encrypted with the Caesar cipher by doing a brute force attack against every possible key. | _tiny_, _beginner_, _cryptography_, _math_ |
 | #8 [Calendar Maker](/Projects/Project%20%2308%20Calendar%20Maker) | Create monthly calendars, saved to a text file and fit for printing. | _short_ |
-| #9 [Carrot in a Box](/Projects/Project%20%2309%20Carrot%20in%20a%Box) | A silly bluffing game between two human players. | _large_, _beginner_, _game_, _two-player_ |
+| #9 [Carrot in a Box](/Projects/Project%20%2309%20Carrot%20in%20a%20Box) | A silly bluffing game between two human players. | _large_, _beginner_, _game_, _two-player_ |
 | #10 [Cho-Han](/Projects/Project%20%2310%20Cho-Han) | The traditional Japanese dice game of even-odd. | _short_, _beginner_, _game_ |
 | #11 [Clickbait Headline Generator](/Projects/Project%20%2311%20Clickbait%20Headline%20Generator) | A clickbait headline generator for your soulless content farm website. | _large_, _beginner_, _humor_, _word_ |
 | #12 [Collatz Sequence](/Projects/Project%20%2312%20Collatz%20Sequence)| Generates numbers for the Collatz sequence, given a starting number. | _tiny_, _beginner_, _math_ |
 | #13 [Conway's Game of Life](/Projects/Project%20%2313%20Conway%27s%20Game%20of%20Life) | The classic cellular automata simulation. | _short_, _artistic_, _simulation_ |
 | #14 [Countdown](/Projects/Project%20%2314%20Countdown) | Show a countdown timer animation using a seven-segment display. | _tiny_, _artistic_ |
 |⋮ | | |
-| #64 [Seven-Segment Display Module](//Projects/Project%20%2364%20Seven) | A seven-segment number display module, used by the Countdown and Digital Clock programs. | _short_, _module_ |
+| #64 [Seven-Segment Display Module](/Projects/Project%20%2364%20Seven-Segment%20Display%20Module) | A seven-segment number display module, used by the Countdown and Digital Clock programs. | _short_, _module_ |
