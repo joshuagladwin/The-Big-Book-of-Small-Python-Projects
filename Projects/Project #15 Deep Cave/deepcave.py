@@ -7,15 +7,15 @@ Tags: tiny, beginner, scrolling, artistic"""
 import random, sys, time
 
 # Set up the constraints:
-WIDTH = 10
+WIDTH = 70
 PAUSE_AMOUNT = 0.01
 
 print('Deep Cave, by Al Sweigart al@inventwithpython.com')
 print('Press Ctrl-C to stop.')
 time.sleep(2)
 
-left_width = 20
-gap_width = 10
+left_width = (WIDTH // 5) * 2
+gap_width = (WIDTH // 5) * 1
 
 while True:
     # Display the tunnel segment:

@@ -23,3 +23,7 @@ Changes the time between the each step.
 * [x] ~~Try uncommenting out `ln 40-48`.~~
 
 Changes the size of the hole on each step.
+
+* [x] ~~Calculate the initial `gap_width` and `left_width` as a function of the `WIDTH` constant.~~
+
+This simple change ensures that the initial `gap_width` and `left_width` are always smaller than `WIDTH` and the cave is displayed correctly from the start.
