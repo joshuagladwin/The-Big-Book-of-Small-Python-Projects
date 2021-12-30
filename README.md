@@ -20,5 +20,6 @@ Implementation of the projects found in ["The Big Book of Small Python Projects"
 | #13 [Conway's Game of Life](/Projects/Project%20%2313%20Conway%27s%20Game%20of%20Life) | The classic cellular automata simulation. | _short_, _artistic_, _simulation_ |
 | #14 [Countdown](/Projects/Project%20%2314%20Countdown) | Show a countdown timer animation using a seven-segment display. | _tiny_, _artistic_ |
 | #15 [Deep Cave](/Projects/Project%20%2315%20Deep%20Cave) | An animation of a deep cave that goes forever into the earth | _tiny_, _beginner_, _scrolling_, _artistic_ |
+| #16 [Diamonds](/Projects/Project%20%2316%20Diamonds) | Draws diamonds of various sizes. | _tiny_, _beginner_, _artistic_ |
 |⋮ | | |
 | #64 [Seven-Segment Display Module](/Projects/Project%20%2364%20Seven-Segment%20Display%20Module) | A seven-segment number display module, used by the Countdown and Digital Clock programs. | _short_, _module_ |

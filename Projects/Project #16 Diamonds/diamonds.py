@@ -1,0 +1,58 @@
+r"""Diamonds, by Al Sweigart al@inventwithpython.com
+Draws diamonds of various sizes.
+View the original code at https://nostarch.com/big-book-small-python-projects
+                           /\       /\
+                          /  \     //\\
+            /\     /\    /    \   ///\\\
+           /  \   //\\  /      \ ////\\\\
+ /\   /\  /    \ ///\\\ \      / \\\\////
+/  \ //\\ \    / \\\///  \    /   \\\///
+\  / \\//  \  /   \\//    \  /     \\//
+ \/   \/    \/     \/      \/       \/
+Tags: tiny, beginner, artistic"""
+
+
+def main():
+    print('Diamonds, by Al Sweigart al@inventwithpython.com')
+
+    # Display diamonds of sizes 0 through 6:
+    for diamond_size in range(0, 6):
+        display_outline_diamond(diamond_size)
+        print()  # Print a newline
+        display_filled_diamond(diamond_size)
+        print()  # Print a newline
+
+
+def display_outline_diamond(size):
+    # Display the top half of the diamond:
+    for i in range(size):
+        print(' ' * (size - i - 1), end='')  # Left side space.
+        print('/', end='')  # Left side of diamond.
+        print(' ' * (i * 2), end='')  # Interior of diamond.
+        print('\\')  # Right side of the diamond.
+
+    # Display the bottom half of the diamond:
+    for i in range(size):
+        print(' ' * i, end='')  # Left side space.
+        print('\\', end='')  # Left side of diamond.
+        print(' ' * ((size - i - 1) * 2), end='')  # Interior of diamond.
+        print('/')  # Right side of diamond.
+
+
+def display_filled_diamond(size):
+    # Display the top half of the diamond:
+    for i in range(size):
+        print(' ' * (size - i - 1), end='')  # Left side space.
+        print('/' * (i + 1), end='')  # Left half of diamond.
+        print('\\' * (i + 1))  # Right half of the diamond.
+
+    # Display the bottom half of the diamond:
+    for i in range(size):
+        print(' ' * i, end='')  # Left side space.
+        print('\\' * (size - i), end='')  # Left side of diamond.
+        print('/' * (size - i))  # Right side of the diamond.
+
+
+# If this program was run (instead of imported), run the game:
+if __name__ == '__main__':
+    main()
