@@ -26,7 +26,7 @@ ___
 
 * [x] ~~Create scripts for other shapes, e.g. triangle, rectangle, rhombus.~~
 
-`triangle.py` 
+`triangles.py` 
 
 ```
                                                     /\         /\   
@@ -36,7 +36,7 @@ ___
 /\ /\ /__\ //\\ /____\ ///\\\ /______\ ////\\\\ /________\ /////\\\\\
 ```
 
-`rectangle.py`
+`rectangles.py`
 
 ```
                                              _____   _____
