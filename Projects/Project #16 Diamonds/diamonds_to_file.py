@@ -1,6 +1,4 @@
-r"""Diamonds, by Al Sweigart al@inventwithpython.com
-Draws diamonds of various sizes.
-View the original code at https://nostarch.com/big-book-small-python-projects
+r"""Diamonds to File
                                                      /\         /\
                                                     /  \       //\\
                                   /\       /\      /    \     ///\\\
@@ -11,45 +9,57 @@ View the original code at https://nostarch.com/big-book-small-python-projects
        /  \ //\\ \    / \\\///  \    /   \\\///    \    /     \\\///
 /\ /\  \  / \\//  \  /   \\//    \  /     \\//      \  /       \\//
 \/ \/   \/   \/    \/     \/      \/       \/        \/         \/
-Tags: tiny, beginner, artistic"""
+"""
 
 
 def main():
-    print('Diamonds, by Al Sweigart al@inventwithpython.com')
+    print('Diamonds To File')
+    d = ''
     # Display diamonds of sizes 0 through 6:
     for diamond_size in range(0, 6):
-        display_outline_diamond(diamond_size)
+        s = return_outline_diamond(diamond_size)
+        print(s)  # Print a diamond
+        d += s + '\n'
         print()  # Print a newline
-        display_filled_diamond(diamond_size)
+        f = return_filled_diamond(diamond_size)
+        print(f)  # Print a filled diamond
+        d += f + '\n'
         print()  # Print a newline
 
+    with open('diamonds.txt', 'w') as f:
+        f.write(d)
 
-def display_outline_diamond(size):
+
+def return_outline_diamond(size):
     # Display the top half of the diamond:
+    s = ''
     for i in range(size):
-        print(' ' * (size - i - 1), end='')  # Left side space.
-        print('/', end='')  # Left side of diamond.
-        print(' ' * (i * 2), end='')  # Interior of diamond.
-        print('\\')  # Right side of the diamond.
+        s += ' ' * (size - i - 1)  # Left side space.
+        s += '/'  # Left side of diamond.
+        s += ' ' * (i * 2)  # Interior of diamond.
+        s += '\\\n'  # Right side of the diamond.
     # Display the bottom half of the diamond:
     for i in range(size):
-        print(' ' * i, end='')  # Left side space.
-        print('\\', end='')  # Left side of diamond.
-        print(' ' * ((size - i - 1) * 2), end='')  # Interior of diamond.
-        print('/')  # Right side of diamond.
+        s += ' ' * i  # Left side space.
+        s += '\\'  # Left side of diamond.
+        s += ' ' * ((size - i - 1) * 2)  # Interior of diamond.
+        s += '/\n'  # Right side of diamond.
+    return s
 
 
-def display_filled_diamond(size):
+def return_filled_diamond(size):
     # Display the top half of the diamond:
+    f = ''
     for i in range(size):
-        print(' ' * (size - i - 1), end='')  # Left side space.
-        print('/' * (i + 1), end='')  # Left half of diamond.
-        print('\\' * (i + 1))  # Right half of the diamond.
+        f += ' ' * (size - i - 1)  # Left side space.
+        f += '/' * (i + 1)  # Left half of diamond.
+        f += '\\' * (i + 1) + '\n'  # Right half of the diamond.
     # Display the bottom half of the diamond:
     for i in range(size):
-        print(' ' * i, end='')  # Left side space.
-        print('\\' * (size - i), end='')  # Left side of diamond.
-        print('/' * (size - i))  # Right side of the diamond.
+        f += ' ' * i  # Left side space.
+        f += '\\' * (size - i)  # Left side of diamond.
+        f += '/' * (size - i) + '\n'  # Right side of the diamond.
+    return f
 
 
 # If this program was run (instead of imported), run the game:
