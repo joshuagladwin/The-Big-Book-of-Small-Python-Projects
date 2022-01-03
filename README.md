@@ -23,5 +23,6 @@ Implementation of the projects found in ["The Big Book of Small Python Projects"
 | #16 [Diamonds](/Projects/Project%20%2316%20Diamonds) | Draws diamonds of various sizes. | _tiny_, _beginner_, _artistic_ |
 | #17 [Dice Math](/Projects/Project%20%2317%20Dice%20Math) | A flash card addition game where you sum the total on random dice rolls. | _large_, _artistic_, _game_, _math_ |
 | #18 [Dice Roller](/Projects/Project%20%2318%20Dice%20Roller) | Simulates dice rolls using the Dungeons & Dragons dice roll notation. | _short_, _simulation_ |
+| #19 [Digital Clock](/Projects/Project%20%2319%20Digital%20Clock) | Displays a digital clock of the current time with a seven-segment display. | _tiny_, _artistic_ |
 |⋮ | | |
 | #64 [Seven-Segment Display Module](/Projects/Project%20%2364%20Seven-Segment%20Display%20Module) | A seven-segment number display module, used by the Countdown and Digital Clock programs. | _short_, _module_ |

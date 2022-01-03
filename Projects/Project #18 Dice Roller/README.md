@@ -2,7 +2,7 @@
 ___
 _by Al Sweigart_ [al@inventwithpython.com](mailto:al@inventwithpython.com)
 
-Simulates dice rolls using the Dungeons & Dragons dice roll notation
+Simulates dice rolls using the Dungeons & Dragons dice roll notation.
 
 View the original code [here](https://nostarch.com/big-book-small-python-projects).
 
