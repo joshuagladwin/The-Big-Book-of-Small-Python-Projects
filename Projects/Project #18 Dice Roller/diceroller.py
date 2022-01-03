@@ -36,19 +36,22 @@ while True:  # Main program loop:
         # Get the number of dice. (The "3" in "3d6+1"):
         number_of_dice = dice_str[:d_index]
         if not number_of_dice.isdecimal():
-            raise Exception('Missing the number of dice.')
+            # Assume bare 'd' is the same as 1d:
+            number_of_dice = 1
         number_of_dice = int(number_of_dice)
 
-        # Find if there is a plus or minus sign for a modifier:
+        # Find if there is a plus, minus or multiplication sign for a modifier:
         mod_index = dice_str.find('+')
         if mod_index == -1:
             mod_index = dice_str.find('-')
+        if mod_index == -1:
+            mod_index = dice_str.find('*')
 
         # Find the number of sides. (The "6" in "3d6+1"):
         if mod_index == -1:
-            number_of_sides = dice_str[d_index + 1 :]
+            number_of_sides = dice_str[d_index + 1:]
         else:
-            number_of_sides = dice_str[d_index + 1 : mod_index]
+            number_of_sides = dice_str[d_index + 1: mod_index]
             if not number_of_sides.isdecimal():
                 raise Exception('Missing the number of sides.')
         number_of_sides = int(number_of_sides)
@@ -68,8 +71,15 @@ while True:  # Main program loop:
             roll_result = random.randint(1, number_of_sides)
             rolls.append(roll_result)
 
+        total = sum(rolls)
+
+        if dice_str[mod_index] == '*':
+            total *= mod_amount
+        else:
+            total += mod_amount
+
         # Display the total:
-        print('Total: ', sum(rolls) + mod_amount, '(Each die: ', end='')
+        print('Total: ', total, '(Each die: ', end='')
 
         # Display the individual rolls:
         for i, roll in enumerate(rolls):
