@@ -1,6 +1,8 @@
 # The Big Book of Small Python Projects
 Implementation of the projects found in ["The Big Book of Small Python Projects"](https://inventwithpython.com/bigbookpython/) by Al Sweigart (No Starch Press, 2021)
 
+Where possible, I've tried to think of ways to change and add to each project, to add my own touch to them. I've also completed some of the suggested entensions where they appear, though these are not explicitly walked-through in the book.
+
 ## Project List
 
 | Project | Description | Tags |
