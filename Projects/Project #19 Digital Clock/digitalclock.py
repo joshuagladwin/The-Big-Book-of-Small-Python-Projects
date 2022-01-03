@@ -9,6 +9,14 @@ Tags: tiny, artistic"""
 import sys, time
 import sevseg  # Imports our sevseg.py program.
 
+A = '\n'.join([' __ ',
+               '|__|',
+               '|  |'])
+
+P = '\n'.join([' __ ',
+               '|__|',
+               '|  '])
+
 try:
     while True:  # Main program loop.
         # Clear the screen by printing several newlines:
@@ -23,6 +31,11 @@ try:
         minutes = str(current_time.tm_min)
         seconds = str(current_time.tm_sec)
 
+        if current_time.tm_hour >= 12:
+            period = P
+        else:
+            period = A
+
         # Get the digit strings from sevseg module:
         h_digits = sevseg.get_sev_seg_str(hours, 2)
         h_top_row, h_middle_row, h_bottom_row = h_digits.splitlines()
@@ -33,10 +46,12 @@ try:
         s_digits = sevseg.get_sev_seg_str(seconds, 2)
         s_top_row, s_middle_row, s_bottom_row = s_digits.splitlines()
 
+        p_top_row, p_middle_row, p_bottom_row = period.splitlines()
+
         # Display the digits:
-        print(h_top_row     + '     ' + m_top_row       + '     ' + s_top_row)
-        print(h_middle_row  + '  *  ' + m_middle_row    + '  *  ' + s_middle_row)
-        print(h_bottom_row  + '  *  ' + m_bottom_row    + '  *  ' + s_bottom_row)
+        print(h_top_row     + '     ' + m_top_row       + '     ' + s_top_row    +  '  '    + p_top_row)
+        print(h_middle_row  + '  *  ' + m_middle_row    + '  *  ' + s_middle_row +  '  '    + p_middle_row)
+        print(h_bottom_row  + '  *  ' + m_bottom_row    + '  *  ' + s_bottom_row +  '  '    + p_bottom_row)
         print()
         print('Press Ctrl-C to quit.')
 
