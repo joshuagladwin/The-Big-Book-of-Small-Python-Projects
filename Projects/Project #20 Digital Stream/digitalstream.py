@@ -6,13 +6,22 @@ Tags: tiny, artistic, beginner, scrolling"""
 import random, shutil, sys, time
 
 # Set up the constants:
-MIN_STREAM_LENGTH = 6  # TODO: Try changing this to 1 or 50.
-MAX_STREAM_LENGTH = 14  # TODO: Try changing this to 100.
-PAUSE = 0.1  # TODO: Try changing this to 0.0 or 2.0.
-STREAM_CHARS = ['0', '1']  # TODO: Try changing this to other characters.
+MIN_STREAM_LENGTH = 6
+MAX_STREAM_LENGTH = 14
+PAUSE = 0.1
+STREAM_CHARS = ['!', '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/',
+                '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ':', ';', '<', '=', '>', '?',
+                '@', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O',
+                'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '[', '\\', ']', '^', '_',
+                '`', '{', '|', '}', '~'
+                '｡', '｢', '｣', '､', '･', 'ｦ', 'ｧ', 'ｨ', 'ｩ', 'ｪ', 'ｫ', 'ｬ', 'ｭ', 'ｮ', 'ｯ',
+                'ｰ', 'ｱ', 'ｲ', 'ｳ', 'ｴ', 'ｵ', 'ｶ', 'ｷ', 'ｸ', 'ｹ', 'ｺ', 'ｻ', 'ｼ', 'ｽ', 'ｾ', 'ｿ',
+                'ﾀ', 'ﾁ', 'ﾂ', 'ﾃ', 'ﾄ', 'ﾅ', 'ﾆ', 'ﾇ', 'ﾈ', 'ﾉ', 'ﾊ', 'ﾋ', 'ﾌ', 'ﾍ', 'ﾎ', 'ﾏ',
+                'ﾐ', 'ﾑ', 'ﾒ', 'ﾓ', 'ﾔ', 'ﾕ', 'ﾖ', 'ﾗ', 'ﾘ', 'ﾙ', 'ﾚ', 'ﾛ', 'ﾜ', 'ﾝ', 'ﾞ', 'ﾟ'
+                ]
 
 # Density can range from 0.0 to 1.0:
-DENSITY = 0.02  # TODO: Try changing this to 0.10 or 0.30.
+DENSITY = 0.02
 
 # Get the size of the terminal window:
 WIDTH = shutil.get_terminal_size()[0]
