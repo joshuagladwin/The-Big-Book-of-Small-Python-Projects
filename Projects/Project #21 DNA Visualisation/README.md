@@ -14,7 +14,7 @@ ___
 
 ## TODO List:
 
-[x] Emoji DNA
+[x] ~~Emoji DNA~~
 
 There are Twitter bots, like [Every DNA](https://twitter.com/everydna), that create "Emoji DNA", choose two emojis and wrapping them into a double helix, like DNA.
 
