@@ -53,7 +53,9 @@ ___
 
 ## TODO List
 
-* [ ] Add a reset option
+* [x] ~~Add a reset option~~
 
-Currently, the "(C)lear" option erases the board, but it does not reset the cursor position to (0,0). I just need to add
-a few lines in to create a "(R)eset option that both erases the canvas _AND_ resets the cursor position to (0,0).
+Currently, the "(C)lear" option erases the board, but it does not reset the cursor position to (0,0). I just need to add a few lines in to create a "(R)eset option that both erases the canvas _AND_ resets the cursor position to (0,0).
+
+
+

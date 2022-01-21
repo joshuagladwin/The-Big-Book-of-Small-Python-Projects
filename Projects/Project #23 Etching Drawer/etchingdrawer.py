@@ -97,7 +97,7 @@ while True:  # Main program loop.
     print(get_canvas_string(canvas, cursor_x, cursor_y))
 
     print('WASD keys to move, H for help, C to clear, '
-          'F to save, or QUIT.')
+          'R to clear and reset to start, F to save, or QUIT.')
     response = input('> ').upper()
 
     if response == 'QUIT':
@@ -114,6 +114,10 @@ while True:  # Main program loop.
     elif response == 'C':
         canvas = {}  # Erase the canvas data.
         moves.append('C')  # Record this move.
+    elif response == 'R':
+        canvas = {}  # Erase the canvas data.
+        cursor_x, cursor_y = 0, 0  # Reset the cursor to (0,0)
+        moves.append('R')  # Record this move.
     elif response == 'F':
         # Save the canvas string to a text file:
         try:
