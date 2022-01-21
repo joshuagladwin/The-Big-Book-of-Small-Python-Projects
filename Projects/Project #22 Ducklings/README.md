@@ -18,7 +18,7 @@ ___
 
 ## TODO List:
 
-* Make penguins? Cats?
+* [ ] Make penguins? Cats?
 
 There are many different options and extensions that could be done with this, but it's a lot of fiddling around with
 characters and print statements rather than any interesting code/functionality that can be added.
