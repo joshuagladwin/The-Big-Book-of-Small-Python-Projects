@@ -29,6 +29,6 @@ Where possible, I've tried to think of ways to change and add to each project, t
 | #20 [Digital Stream](/Projects/Project%20%2320%20Digital%20Stream) | A screensaver in the style of The Matrix movie's visuals. | _tiny_, _artistic_, _beginner_, _scrolling_ |
 | #21 [DNA Visualisation](/Projects/Project%20%2321%20DNA%20Visualisation) | A simple animation of a DNA double-helix. | _short_, _artistic_, _scrolling_, _science_ |
 | #22 [Ducklings](/Projects/Project%20%2322%20Ducklings) | A screensaver of many many ducklings. | _large_, _artistic_, _object-oriented_, _scrolling_ | 
-| #23 [Etching Drawer](/Projects/Project%20%2321%23Etching%20Drawer) | An art program that draws a continuous line around the screen using the WASD keys. | _large_, _artistic_ |
+| #23 [Etching Drawer](/Projects/Project%20%2323%20Etching%20Drawer) | An art program that draws a continuous line around the screen using the WASD keys. | _large_, _artistic_ |
 |⋮ | | |
 | #64 [Seven-Segment Display Module](/Projects/Project%20%2364%20Seven-Segment%20Display%20Module) | A seven-segment number display module, used by the Countdown and Digital Clock programs. | _short_, _module_ |
