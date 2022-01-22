@@ -30,5 +30,6 @@ Where possible, I've tried to think of ways to change and add to each project, t
 | #21 [DNA Visualisation](/Projects/Project%20%2321%20DNA%20Visualisation) | A simple animation of a DNA double-helix. | _short_, _artistic_, _scrolling_, _science_ |
 | #22 [Ducklings](/Projects/Project%20%2322%20Ducklings) | A screensaver of many many ducklings. | _large_, _artistic_, _object-oriented_, _scrolling_ | 
 | #23 [Etching Drawer](/Projects/Project%20%2323%20Etching%20Drawer) | An art program that draws a continuous line around the screen using the WASD keys. | _large_, _artistic_ |
+| #24 [Factor Finder](/Projects/Project%20%23%24%20Factor%20Finder) | Finds all the factors of a number. | _tiny_, _beginner_, _math_ |
 |⋮ | | |
 | #64 [Seven-Segment Display Module](/Projects/Project%20%2364%20Seven-Segment%20Display%20Module) | A seven-segment number display module, used by the Countdown and Digital Clock programs. | _short_, _module_ |
