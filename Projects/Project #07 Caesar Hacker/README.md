@@ -10,7 +10,7 @@ View the original code [here](https://nostarch.com/big-book-small-python-project
 **Tags**: _tiny_, _beginner_, _cryptography_, _math_
 ____
 
-Using the same `symbols`* as defined in [Project #6](../Project%20%236%20Caesar%20Cipher), you can easily try:
+Using the same `symbols`* as defined in [Project #6](/Projects/Project%20%2306%20Caesar%20Cipher), you can easily try:
 
 ```
 Enter the encrypted Caesar cipher message to hack.

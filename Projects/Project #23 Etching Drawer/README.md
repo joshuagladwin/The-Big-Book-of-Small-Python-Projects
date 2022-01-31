@@ -45,7 +45,7 @@ Or an even larger Hilbert Curve fractal with:
 └─┘ └─┘ └─┘ └─┘ └─┘ └─┘ └─┘ └─┘  
 ```
 
-View the original code [here](https://nostarch.com/big-book-small-python-projects)
+View the original code [here](https://nostarch.com/big-book-small-python-projects).
 
 **Tags**: _large_, _artistic_
 

@@ -1,6 +1,6 @@
 """Guess the Number, by Al Sweigart_ al@inventwithpython.com
 Try to guess the secret number based on hints.
-View the original code at https://nostarch.com/big-book-little-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: tiny, beginner, game"""
 
 import random

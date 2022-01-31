@@ -4,7 +4,7 @@ _by Al Sweigart_ [al@inventwithpython.com](mailto:al@inventwithpython.com)
 
 Finds all the factors of a number.
 
-View the original code [here](https://nostarch.com/big-book-little-python-projects)
+View the original code [here](https://nostarch.com/big-book-small-python-projects).
 
 **Tags**: _tiny_, _beginner_, _math_
 

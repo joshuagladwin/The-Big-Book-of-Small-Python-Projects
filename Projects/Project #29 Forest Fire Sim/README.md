@@ -6,7 +6,7 @@ A simulation of wildfires spreading in a forest. Press Ctrl-C to stop.
 
 Inspired by Nicky Case's Emoji Sim https://ncase.me/simulating/model/
 
-View the original code [here](https://nostarch.com/big-book-little-python-projects)
+View the original code [here](https://nostarch.com/big-book-small-python-projects).
 
 **Tags**: _short_, _bext_, _simulation_
 

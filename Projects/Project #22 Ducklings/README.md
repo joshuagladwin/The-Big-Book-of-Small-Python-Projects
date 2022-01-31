@@ -10,7 +10,7 @@ A screensaver of many many ducklings.
   ^ ^    ^ ^    ^ ^    ^^    ^^    ^^
 ```
 
-View the original code [here](https://nostarch.com/big-book-small-ptyhon-projects)
+View the original code [here](https://nostarch.com/big-book-small-ptyhon-projects).
 
 **Tags**: _large_, _artistic_, _object-oriented_, _scrolling_
 

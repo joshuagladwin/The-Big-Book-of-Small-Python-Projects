@@ -4,7 +4,7 @@ _by Al Sweigart_ [al@inventwithpython.com](mailto:al@inventwithpython.com)
 
 Try to guess the secret number based on hints.
 
-View the original code [here](https://nostarch.com/big-book-little-python-projects)
+View the original code [here](https://nostarch.com/big-book-small-python-projects).
 
 **Tags**: _tiny_, _beginner_, _game_
 

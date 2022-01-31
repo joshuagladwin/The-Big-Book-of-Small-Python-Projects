@@ -4,7 +4,7 @@ _by Al Sweigart_ [al@inventwithpython.com](mailto:al@inventwithpython.com)
 
 A tile-dropping game to get four in a row, similar to Connect Four.
 
-View the original code [here](https://nostarch.com/big-book-little-python-projects)
+View the original code [here](https://nostarch.com/big-book-small-python-projects).
 
 **Tags**: _large_, _game_, _board game_, _two-player_
 
