@@ -11,13 +11,13 @@ View the original code [here](https://nostarch.com/big-book-little-python-projec
 
 ___
 
-![image](start.png)
+![image](images/start.png)
 
 ⋮
 
-![image](win.png)
+![image](images/win.png)
 
 ## TODO List:
 
-* Different shapes and colors
-* Different board shapse.
+* [ ] Different shapes and colors
+* [ ] Different board shapse.
