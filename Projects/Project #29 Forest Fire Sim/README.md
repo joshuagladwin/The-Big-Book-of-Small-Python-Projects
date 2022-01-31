@@ -14,4 +14,8 @@ ___
 
 ## TODO List:
 
-*
+* [ ] Add randomly created lakes and rivers, which act as fire breaks that flames cannot cross.
+* [ ] Add a percentage chance that a tree will catch fire from its neighbor.
+* [ ] Add different types of trees with different chances of catching fire.
+* [ ] Add different states of burning trees so that it takes multiple simulation steps for a tree to burn down.
+* [ ] Add the fire and tree emojis to replicate the [original inspiration](https://ncase.me/simulating/model/).
