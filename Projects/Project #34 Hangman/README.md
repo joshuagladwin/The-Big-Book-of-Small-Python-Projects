@@ -15,8 +15,8 @@ Computer Games with Python"](https://nostarch.com/inventwithpython)
 
 ## TODO List:
 
-* Allow players to select what category of the words they want to play.
-* Add a feature to allow the player to choose between hangman and guillotine versions
+* [ ] Allow players to select what category of the words they want to play.
+* [ ] Add a feature to allow the player to choose between hangman and guillotine versions
 ```
 |        |   |    |===|    |===|    |===|    |===|    |===|
 |        |   |    |   |    |   |    |   |    || /|    || /|

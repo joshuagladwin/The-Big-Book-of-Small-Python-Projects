@@ -41,5 +41,6 @@ Where possible, I've tried to think of ways to change and add to each project, t
 | #32 [Guillible](/Projects/Project%20%2332%20Guillible) | How to keep a gullible person busy for hours. (This is a joke program.) | _tiny_, _beginner_, _humor_ |
 | #33 [Hacking Minigame](/Projects/Project%20%2333%20Hacking%20Minigame)| The hacking minigame from "Fallout 3". | _large_, _artistic_, _game_, puzzle_ |
 | #34 [Hangman](/Projects/Project%20%2334%20Hangman) | Guess the letters to a secret word before the hangman is drawn. | _large_, _game_, _word_, _puzzle_ |
+| #35 [Hex Grid](/Projects/Project%20%2335%20Hex%20Grid) | Displays a simple tessellation of a hexagon grid. | _tiny_, _beginner_, _artistic_ |
 |⋮ | | |
 | #64 [Seven-Segment Display Module](/Projects/Project%20%2364%20Seven-Segment%20Display%20Module) | A seven-segment number display module, used by the Countdown and Digital Clock programs. | _short_, _module_ |
