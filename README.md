@@ -36,9 +36,10 @@ Where possible, I've tried to think of ways to change and add to each project, t
 | #27 [Fish Tank](/Projects/Project%20%2327%20Fish%20Tank) | A peaceful animation of a fish tank. | _extra-large_, _artistic_, _bext_ |
 | #28 [Flooder](/Projects/Project%20%2328%20Flooder) | A colorful game where you try to fill the board with a single color. | _large_, _bext_, _game_ |
 | #29 [Forest Fire Sim](/Projects/Project%20%2329%20Forest%20Fire%20Sim) | A simulation of wildfires spreading in a forest. | _short_, _bext_, _simulation_ |
-| #30 [Four in a Row](/Projects/Project #30 Four In A Row) | A tile-dropping game to get four in a row, similar to Connect Four. | _large_, _game_, _board game_, _two-player_ |
+| #30 [Four in a Row](/Projects/Project%20%2330%20Four%20In%20A%20Row) | A tile-dropping game to get four in a row, similar to Connect Four. | _large_, _game_, _board game_, _two-player_ |
 | #31 [Guess the Number](/Projects/Project%20%2331%20Guess%20the%20Number) | Try to guess the secret number based on hints. | _tiny_, _beginner_, _game_ |
 | #32 [Guillible](/Projects/Project%20%2332%20Guillible) | How to keep a gullible person busy for hours. (This is a joke program.) | _tiny_, _beginner_, _humor_ |
 | #33 [Hacking Minigame](/Projects/Project%20%2333%20Hacking%20Minigame)| The hacking minigame from "Fallout 3". | _large_, _artistic_, _game_, puzzle_ |
+| #34 [Hangman](/Projects/Project%20%2334%20Hangman) | Guess the letters to a secret word before the hangman is drawn. | _large_, _game_, _word_, _puzzle_ |
 |⋮ | | |
 | #64 [Seven-Segment Display Module](/Projects/Project%20%2364%20Seven-Segment%20Display%20Module) | A seven-segment number display module, used by the Countdown and Digital Clock programs. | _short_, _module_ |
