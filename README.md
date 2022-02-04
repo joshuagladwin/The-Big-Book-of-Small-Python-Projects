@@ -47,5 +47,6 @@ Where possible, I've tried to think of ways to change and add to each project, t
 | #38 [J'Accuse!](/Projects/Project%20%2338%20J%27Accuse%21) | A mystery game of intrigue and a missing cat. | _extra-large_, _game_, _humor_, _puzzle_ |
 | #39 [Langton's Ant](Projects/Project%20%2339%20Langton%27s%20Ant) | A cellular automata animation. | _large_, _artistic_, _bext_, _simulation_ |
 | #40 [Leetspeak](Projects/Project%20%2340%20Leetspeak) | Translates English messages into l33t5p34]<. | _tiny_, _beginner_, _word_ |
+| #41 [Lucky Stars](Projects/Project%20%2341%20Lucky%20Stars) | Translates English messages into l33t5p34]<. | _tiny_, _beginner_, _word_ |
 |⋮ | | |
-| #64 [Seven-Segment Display Module](/Projects/Project%20%2364%20Seven-Segment%20Display%20Module) | A seven-segment number display module, used by the Countdown and Digital Clock programs. | _short_, _module_ |
+| #64 [Seven-Segment Display Module](/Projects/Project%20%2364%20Seven-Segment%20Display%20Module) | A "press your luck" game where you roll dice to gather as many stars as possible. | _large_, _game_, _multiplayer_ |

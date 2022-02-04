@@ -18,6 +18,6 @@ mi$$|0n: t0 3xplor3 s+r4nge n3w w0rl|)5. T0 $ee]< out n3w l|ph3 4n|) n3w (|vil!z
 
 ## TODO List:
 
-* Modify the charMapping dictionary so that it supports new leetspeak characters.
-* Add a feature that can convert leetspeak back into plain English.
+* [ ] Modify the charMapping dictionary so that it supports new leetspeak characters.
+* [ ] Add a feature that can convert leetspeak back into plain English.
 
