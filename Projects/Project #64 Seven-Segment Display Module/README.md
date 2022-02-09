@@ -2,7 +2,7 @@
 ___
 _by Al Sweigart_ [al@inventwithpython.com](mailto:al@inventwithpython.com)
 
- A seven-segment number display module, used by the Countdown and Digital Clock programs.
+A seven-segment number display module, used by the Countdown and Digital Clock programs.
 
 More info at [here](https://en.wikipedia.org/wiki/Seven-segment_display).
 
