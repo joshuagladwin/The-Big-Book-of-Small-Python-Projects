@@ -12,4 +12,8 @@ ___
 
 ## TODO List:
 
-* [ ] Output Results to graph
+* [x] ~~Output Results to graph~~
+
+I've added a tiny bit of Matplotlib, just to illustrate the distribution of the rolls:
+
+![img](Curve.png)

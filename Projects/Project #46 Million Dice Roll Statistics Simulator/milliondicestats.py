@@ -5,6 +5,7 @@ View this code at https://nostarch.com/big-book-small-python-projects
 Tags: tiny, beginner, math, simulation"""
 
 import random, time
+import matplotlib.pyplot as plt
 
 print('''Million Dice Roll Statistics Simulator
 By Al Sweigart al@inventwithpython.com
@@ -36,3 +37,9 @@ for i in range(number_of_dice, (number_of_dice * 6) + 1):
     roll = results[i]
     percentage = round(results[i] / 10000, 1)
     print(f'  {i} - {roll} rolls - {percentage}%')
+
+plt.bar(results.keys(), results.values())
+plt.title(f'Roll Totals Distribution for 1 Million Rolls of {number_of_dice} Dice')
+plt.xlabel('Total')
+plt.ylabel('Rolls')
+plt.savefig('Curve.png')
