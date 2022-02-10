@@ -10,6 +10,9 @@ View the original code [here](https://nostarch.com/big-book-small-python-project
 
 ___
 
+![img](Mondrian.png)
+
 ## TODO List:
 
-* 
+* Create programs with different color palettes.
+* Use the Pillow module to produce image files of Mondrian art. You can learn about this module from Chapter 19 of Automate the Boring Stuff with Python at https://automatetheboringstuff.com/2e/chapter19/.
