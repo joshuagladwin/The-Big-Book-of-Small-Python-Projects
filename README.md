@@ -53,5 +53,6 @@ Where possible, I've tried to think of ways to change and add to each project, t
 | #44 [Maze Runner 2D](Projects/Project%20%2343%20Maze%20Runner%202D) | Move around a maze and try to escape. | _large_, _game_, _maze_ |
 | #45 [Maze Runner 3D](Projects/Project%20%2344%20Maze%20Runner%203D) | Move around a maze and try to escape... in 3D! | _extra-large_, _artistic_, _game_, _maze_ |
 | #46 [Million Dice Roll Statistics Simulator](Projects/Project%20%2346%20Million%20Dice%20Roll%20Statistics%20Simulator)| A simulation of one million dice rolls. | _tiny_, _beginner_, _math_, _simulation_ |
+| #47 [Mondrian Art Generator](Projects/Project%20%2347%20Mondrian%20Art%20Generator)| Randomly generates art in the style of Piet Mondrian. | _large_, _artistic_, _bext_ |
 |⋮ | | |
 | #64 [Seven-Segment Display Module](/Projects/Project%20%2364%20Seven-Segment%20Display%20Module) | A seven-segment number display module, used by the Countdown and Digital Clock programs.| _short_, _module_ |

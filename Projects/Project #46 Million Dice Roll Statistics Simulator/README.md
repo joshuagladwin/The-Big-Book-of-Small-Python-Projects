@@ -17,3 +17,7 @@ ___
 I've added a tiny bit of Matplotlib, just to illustrate the distribution of the rolls:
 
 ![img](Curve.png)
+
+* [ ] Try rolling 8-, 10-, 12-, or 20-sided dice.
+
+* [ ] Try simulating two-sided coin tosses.
