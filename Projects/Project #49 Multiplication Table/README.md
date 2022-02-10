@@ -1,6 +1,6 @@
 # Multiplication Table
 ___
-_by Al Sweigart_ al@inventwithpython.com
+_by Al Sweigart_ [al@inventwithpython.com](mailto:al@inventwithpython.com)
 
 Print a multiplication table.
 

@@ -1,6 +1,6 @@
 # Ninety-Nine Bottles
 ___
-_by Al Sweigart_ al@inventwithpython.com
+_by Al Sweigart_ [al@inventwithpython.com](mailto:al@inventwithpython.com)
 
 Print the full lyrics to one of the longest songs ever! Press
 Ctrl-C to stop.

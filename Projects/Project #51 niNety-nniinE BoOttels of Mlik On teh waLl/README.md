@@ -1,6 +1,6 @@
 # niNety-nniinE BoOttels of Mlik On teh waLl
 ___
-_by Al Sweigart_ al@inventwithpython.com
+_by Al Sweigart_ [al@inventwithpython.com](mailto:al@inventwithpython.com)
 
 Print the full lyrics to one of the longest songs ever! The song
 gets sillier and sillier with each verse. Press Ctrl-C to stop.
