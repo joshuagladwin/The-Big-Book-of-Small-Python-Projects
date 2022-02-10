@@ -57,5 +57,6 @@ Where possible, I've tried to think of ways to change and add to each project, t
 | #48 [Monty Hall Problem](Projects/Project%20%2348%20Monty%20Hall%20Problem) | A simulation of the Monty Hall game show problem. | _large_, _game_, _math_, _simulation_ |
 | #49 [Multiplication Table](Projects/Project%20%2349%20Multiplication%20Table) | Print a multiplication table. | _tiny_, _beginner_, _math_ |
 | #50 [Ninety-Nine Bottles](Projects/Project%20%2350%20Ninety-Nine%20Bottles) | Print the full lyrics to one of the longest songs ever! | _tiny_, _beginner_, _scrolling_ |
+| #51 [niNety-nniinE BoOttels of Mlik On teh waLl](Projects/Project%20%2351%20niNety-nniinE%20BoOttels%20of%20Mlik%20On%20teh%20waLl) | Print the full lyrics to one of the longest songs ever! The song gets sillier and sillier with each verse. | _short_, _scrolling_, _word_ |
 |⋮ | | |
 | #64 [Seven-Segment Display Module](/Projects/Project%20%2364%20Seven-Segment%20Display%20Module) | A seven-segment number display module, used by the Countdown and Digital Clock programs.| _short_, _module_ |
