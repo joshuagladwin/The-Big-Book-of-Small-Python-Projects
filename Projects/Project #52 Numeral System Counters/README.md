@@ -15,5 +15,5 @@ ___
 
 ## TODO List:
 
-* [ ] Enter a new row for octal, the base-8 number system, using Python’s oct() function. 
+* [x] ~~Enter a new row for octal, the base-8 number system, using Python’s oct() function.~~ 
 * [ ] Search the internet for “number system conversion” to find out how to implement your own bin(), oct(), and hex() functions.

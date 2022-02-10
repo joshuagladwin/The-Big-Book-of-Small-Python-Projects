@@ -36,5 +36,6 @@ for number in range(start, start + amount):  # Main program loop.
     # Convert to hexadecimal/binary and remove the prefix:
     hex_number = hex(number)[2:].upper()
     bin_number = bin(number)[2:]
+    oct_number = oct(number)[2:]
 
-    print('DEC:', number, '  HEX:', hex_number, '  BIN:', bin_number)
+    print('DEC:', number, '  HEX:', hex_number, '  BIN:', bin_number, ' OCT:', oct_number)
