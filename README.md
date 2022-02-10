@@ -56,5 +56,6 @@ Where possible, I've tried to think of ways to change and add to each project, t
 | #47 [Mondrian Art Generator](Projects/Project%20%2347%20Mondrian%20Art%20Generator)| Randomly generates art in the style of Piet Mondrian. | _large_, _artistic_, _bext_ |
 | #48 [Monty Hall Problem](Projects/Project%20%2348%20Monty%20Hall%20Problem) | A simulation of the Monty Hall game show problem. | _large_, _game_, _math_, _simulation_ |
 | #49 [Multiplication Table](Projects/Project%20%2349%20Multiplication%20Table) | Print a multiplication table. | _tiny_, _beginner_, _math_ |
+| #50 [Ninety-Nine Bottles](Projects/Project%20%2350%20Ninety-Nine%20Bottles) | Print the full lyrics to one of the longest songs ever! | _tiny_, _beginner_, _scrolling_ |
 |⋮ | | |
 | #64 [Seven-Segment Display Module](/Projects/Project%20%2364%20Seven-Segment%20Display%20Module) | A seven-segment number display module, used by the Countdown and Digital Clock programs.| _short_, _module_ |
