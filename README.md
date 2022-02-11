@@ -59,5 +59,6 @@ Where possible, I've tried to think of ways to change and add to each project, t
 | #50 [Ninety-Nine Bottles](Projects/Project%20%2350%20Ninety-Nine%20Bottles) | Print the full lyrics to one of the longest songs ever! | _tiny_, _beginner_, _scrolling_ |
 | #51 [niNety-nniinE BoOttels of Mlik On teh waLl](Projects/Project%20%2351%20Project%20#51%20niNety-nniinE%20BoOttels%20of%20Mlik%20On%20teh%20waLl) | Print the full lyrics to one of the longest songs ever! The song gets sillier and sillier with each verse. | _short_, _scrolling_, _word_ |
 | #52 [Numeral System Counters](Projects/Project%20%2352%20Numeral%20System%20Counters) |  Shows equivalent numbers in decimal, hexadecimal, and binary. | _tiny_, _math_ |
+| #53 [Periodic Tables](Projects/Project%20%2353%20Periodic%20Table) | Displays atomic information for all the elements. | _short_, _science_ |
 |⋮ | | |
 | #64 [Seven-Segment Display Module](/Projects/Project%20%2364%20Seven-Segment%20Display%20Module) | A seven-segment number display module, used by the Countdown and Digital Clock programs.| _short_, _module_ |
