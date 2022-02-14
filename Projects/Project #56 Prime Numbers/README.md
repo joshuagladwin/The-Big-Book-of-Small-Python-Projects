@@ -10,7 +10,7 @@ More info at [here](https://en.wikipedia.org/wiki/Prime_number).
 
 View the original code [here](https://nostarch.com/big-book-small-python-projects).
 
-**Tags**: _tiny_, _math_, _scrolling_
+**Tags**: _tiny_, _module_, _scrolling_
 
 ___
 

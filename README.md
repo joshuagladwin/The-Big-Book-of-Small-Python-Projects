@@ -50,18 +50,19 @@ Where possible, I've tried to think of ways to change and add to each project, t
 | #41 [Lucky Stars](Projects/Project%20%2341%20Lucky%20Stars) | A "press your luck" game where you roll dice to gather as many stars as possible.  | _large_, _game_, _multiplayer_ |
 | #42 [Magic Fortune Ball](Projects/Project%20%2342%20Magic%20Fortune%20Ball) | Ask a yes/no question about your future. | _tiny_, _beginner_, _humor_ |
 | #43 [Mancala](Projects/Project%20%2343%20Mancala) | The ancient seed-sowing game. | _large_, _board game_, _game_, _two-player_ |
-| #44 [Maze Runner 2D](Projects/Project%20%2343%20Maze%20Runner%202D) | Move around a maze and try to escape. | _large_, _game_, _maze_ |
-| #45 [Maze Runner 3D](Projects/Project%20%2344%20Maze%20Runner%203D) | Move around a maze and try to escape... in 3D! | _extra-large_, _artistic_, _game_, _maze_ |
+| #44 [Maze Runner 2D](Projects/Project%20%2344%20Maze%20Runner%202D) | Move around a maze and try to escape. | _large_, _game_, _maze_ |
+| #45 [Maze Runner 3D](Projects/Project%20%2345%20Maze%20Runner%203D) | Move around a maze and try to escape... in 3D! | _extra-large_, _artistic_, _game_, _maze_ |
 | #46 [Million Dice Roll Statistics Simulator](Projects/Project%20%2346%20Million%20Dice%20Roll%20Statistics%20Simulator)| A simulation of one million dice rolls. | _tiny_, _beginner_, _math_, _simulation_ |
 | #47 [Mondrian Art Generator](Projects/Project%20%2347%20Mondrian%20Art%20Generator)| Randomly generates art in the style of Piet Mondrian. | _large_, _artistic_, _bext_ |
 | #48 [Monty Hall Problem](Projects/Project%20%2348%20Monty%20Hall%20Problem) | A simulation of the Monty Hall game show problem. | _large_, _game_, _math_, _simulation_ |
 | #49 [Multiplication Table](Projects/Project%20%2349%20Multiplication%20Table) | Print a multiplication table. | _tiny_, _beginner_, _math_ |
 | #50 [Ninety-Nine Bottles](Projects/Project%20%2350%20Ninety-Nine%20Bottles) | Print the full lyrics to one of the longest songs ever! | _tiny_, _beginner_, _scrolling_ |
-| #51 [niNety-nniinE BoOttels of Mlik On teh waLl](Projects/Project%20%2351%20Project%20#51%20niNety-nniinE%20BoOttels%20of%20Mlik%20On%20teh%20waLl) | Print the full lyrics to one of the longest songs ever! The song gets sillier and sillier with each verse. | _short_, _scrolling_, _word_ |
+| #51 [niNety-nniinE BoOttels of Mlik On teh waLl](Projects/Project%20%2351%20niNety-nniinE%20BoOttels%20of%20Mlik%20On%20teh%20waLl) | Print the full lyrics to one of the longest songs ever! The song gets sillier and sillier with each verse. | _short_, _scrolling_, _word_ |
 | #52 [Numeral System Counters](Projects/Project%20%2352%20Numeral%20System%20Counters) |  Shows equivalent numbers in decimal, hexadecimal, and binary. | _tiny_, _math_ |
 | #53 [Periodic Tables](Projects/Project%20%2353%20Periodic%20Table) | Displays atomic information for all the elements. | _short_, _science_ |
 | #54 [Pig Latin](Projects/Project%20%2354%20Pig%20Latin) | Translates English messages into Igpay Atinlay. | _short_, _word_ |
 | #55 [Powerball Lottery](Projects/Project%20%2355%20Powerball%20Lottery) | A simulation of the lottery so you can experience the thrill of losing the lottery without wasting your money. | _short_, _humor_, _simulation_ |
 | #56 [Prime Numbers](Projects/Project%20%2356%20Prime%20Numbers) | Calculates prime numbers, which are numbers that are only evenly divisible by one and themselves. | _tiny_, _math_, _scrolling_ |
+| #57 [Progress Bar](Projects/Project%20%2356%20Prime%20Numbers) | A sample progress bar animation that can be used in other programs. | _tiny_, _module_ |
 |⋮ | | |
 | #64 [Seven-Segment Display Module](/Projects/Project%20%2364%20Seven-Segment%20Display%20Module) | A seven-segment number display module, used by the Countdown and Digital Clock programs.| _short_, _module_ |
