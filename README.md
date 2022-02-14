@@ -65,5 +65,6 @@ Where possible, I've tried to think of ways to change and add to each project, t
 | #56 [Prime Numbers](Projects/Project%20%2356%20Prime%20Numbers) | Calculates prime numbers, which are numbers that are only evenly divisible by one and themselves. | _tiny_, _math_, _scrolling_ |
 | #57 [Progress Bar](Projects/Project%20%2357%20Progress%20Bar) | A sample progress bar animation that can be used in other programs. | _tiny_, _module_ |
 | #58 [Rainbow](Projects/Project%20%2358%20Rainbow) | Shows a simple rainbow animation. | _tiny_, _artistic_, _bext_, _beginner_, _scrolling_ |
+| #59 [Rock Paper Scissors](Projects/Project%20%2359%20Rock%20Paper%20Scissors) | The classic hand game of luck. | _short_, _game_ |
 |⋮ | | |
 | #64 [Seven-Segment Display Module](/Projects/Project%20%2364%20Seven-Segment%20Display%20Module) | A seven-segment number display module, used by the Countdown and Digital Clock programs.| _short_, _module_ |
