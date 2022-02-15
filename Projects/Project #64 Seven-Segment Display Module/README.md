@@ -14,10 +14,8 @@ View the original code [here](https://nostarch.com/big-book-small-python-project
 
 ___
 
-This is just an initial implementation of sevseg, as I need to use it for earlier projects. I'll come back and extend
-this further once I get to Project #64.
-
-
 ## TODO List:
 
-* [ ] #
+* [ ] Create new fonts for numbers, such as using five rows and the block character string returned by chr(9608).
+* [ ] Look at the Wikipedia article for seven-segment displays to find out how to display letters and then add those to sevseg.py.
+* [ ] Learn about sixteen-segment displays from https://en.wikipedia.org/wiki/Sixteen-segment_display and create a sixteenseg.py module to generate numbers in that style.
