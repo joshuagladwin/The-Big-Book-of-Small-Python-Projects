@@ -12,7 +12,7 @@ ___
 
 ## TODO List:
 
-* [ ] Try creating the following patterns:
+* [x] ~~Try creating the following patterns:~~
 
 ```
 ___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|

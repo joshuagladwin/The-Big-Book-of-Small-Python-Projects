@@ -15,13 +15,43 @@ for i in range(Y_REPEAT):
     print(r'_/ / / _ \__' * X_REPEAT)
     print(r'__/ / / \___' * X_REPEAT)
 
+print()
 
+for i in range(Y_REPEAT):
+    print(r'___|' * X_REPEAT)
+    print(r'_|__' * X_REPEAT)
 
+print()
 
+for i in range(Y_REPEAT):
+    print(r'(  )' * X_REPEAT)
+    print(r'))( ' * X_REPEAT)
 
+print()
 
+for i in range(Y_REPEAT):
+    print(r' / __ \ \__/ ' * X_REPEAT)
+    print(r'/ /  \ \____ ' * X_REPEAT)
+    print(r'\ \__/ / __  ' * X_REPEAT)
+    print(r' \____/ /  \ ' * X_REPEAT)
 
+print()
 
+for i in range(Y_REPEAT):
+    print(r' \__  ' * X_REPEAT)
+    print(r'_/  \_' * X_REPEAT)
+    print(r' \    ' * X_REPEAT)
+    print(r'_/   _' * X_REPEAT)
+    print(r' \__/ ' * X_REPEAT)
+    print(r' /    ' * X_REPEAT)
 
+print()
 
+for i in range(Y_REPEAT):
+    print(r'/ ___ \ ^ ' * X_REPEAT)
+    print(r' /   \ VVV' * X_REPEAT)
+    print(r'|() ()|   ' * X_REPEAT)
+    print(r' \ ^ / ___' * X_REPEAT)
+    print(r'\ VVV /   ' * X_REPEAT)
+    print(r')|   |() (' * X_REPEAT)
 
