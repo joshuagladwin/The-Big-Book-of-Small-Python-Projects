@@ -10,7 +10,7 @@ View the original code [here](https://nostarch.com/big-book-small-python-project
 **Tags**: _short_, _artistic_, _beginner_, _game_, _multiplayer_
 ___
 
-![img](Race Result.png)
+![The results of a snail race, showing snail "Gamma" winning](Race%20Result.png)
 
 TODO List:
 ---
