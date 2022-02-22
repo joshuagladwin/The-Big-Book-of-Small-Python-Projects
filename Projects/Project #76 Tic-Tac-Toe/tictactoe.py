@@ -1,6 +1,6 @@
 """Tic-Tac-Toe, by Al Sweigart al@inventwithpython.com
 The classic board game.
-View this code at https://nostarch.com/big-book-small-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: short, board game, game, two-player"""
 
 ALL_SPACES = ['1', '2', '3', '4', '5', '6', '7', '8', '9']

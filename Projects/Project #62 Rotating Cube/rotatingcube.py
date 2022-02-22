@@ -1,6 +1,6 @@
 """Rotating Cube, by Al Sweigart al@inventwithpython.com
 A rotating cube animation. Press Ctrl-C to stop.
-View this code at https://nostarch.com/big-book-small-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: large, artistic, math"""
 
 # This program must be run in a Terminal/Command Prompt window.

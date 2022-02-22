@@ -2,7 +2,7 @@
 By Al Sweigart al@inventwithpython.com
 Print the full lyrics to one of the longest songs ever! The song
 gets sillier and sillier with each verse. Press Ctrl-C to stop.
-View this code at https://nostarch.com/big-book-small-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: short, scrolling, word"""
 
 import random, sys, time

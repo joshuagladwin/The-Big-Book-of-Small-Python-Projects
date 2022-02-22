@@ -1,6 +1,6 @@
 """Gullible, by Al Sweigart al@inventwithpython.com
 How to keep a gullible person busy for hours. (This is a joke program.)
-View this code at https://nostarch.com/big-book-small-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: tiny, beginner, humor"""
 
 print('Guillible, by Al Sweigart al@inventwithpython.com')

@@ -1,6 +1,6 @@
 """Sine Message, by Al Sweigart al@inventwithpython.com
 Create a sine-wavy message.
-View this code at https://nostarch.com/big-book-small-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: tiny, artistic"""
 
 import math, shutil, sys, time

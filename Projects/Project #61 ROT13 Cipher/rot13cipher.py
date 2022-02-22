@@ -1,7 +1,7 @@
 """ROT13 Cipher, by Al Sweigart al@inventwithpython.com
 The simplest shift cipher for encrypting and decrypting text.
 More info at https://en.wikipedia.org/wiki/ROT13
-View this code at https://nostarch.com/big-book-small-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: tiny, cryptography"""
 
 try:

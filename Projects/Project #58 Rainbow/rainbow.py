@@ -1,6 +1,6 @@
 """Rainbow, by Al Sweigart al@inventwithpython.com
 Shows a simple rainbow animation. Press Ctrl-C to stop.
-View this code at https://nostarch.com/big-book-small-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: tiny, artistic, bext, beginner, scrolling"""
 
 import time, sys

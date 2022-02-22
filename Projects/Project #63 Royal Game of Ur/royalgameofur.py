@@ -2,7 +2,7 @@
 A 5,000 year old board game from Mesopotamia. Two players knock each
 other back as they race for the goal.
 More info https://en.wikipedia.org/wiki/Royal_Game_of_Ur
-View this code at https://nostarch.com/big-book-small-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: large, board game, game, two-player
 """
 

@@ -1,7 +1,7 @@
 """The Monty Hall Problem, by Al Sweigart al@inventwithpython.com
 A simulation of the Monty Hall game show problem.
 More info at https://en.wikipedia.org/wiki/Monty_Hall_problem
-View this code at https://nostarch.com/big-book-small-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: large, game, math, simulation"""
 
 import random, sys

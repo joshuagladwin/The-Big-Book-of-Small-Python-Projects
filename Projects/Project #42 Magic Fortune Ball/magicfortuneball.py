@@ -1,6 +1,6 @@
 """Magic Fortune Ball, by Al Sweigart al@inventwithpython.com
 Ask a yes/no question about your future. Inspired by the Magic 8 Ball.
-View this code at https://nostarch.com/big-book-small-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: tiny, beginner, humor"""
 
 import random, time

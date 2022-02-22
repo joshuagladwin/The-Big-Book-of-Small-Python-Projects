@@ -4,7 +4,7 @@ Similar to ASCIIQuarium or @EmojiAquarium, but mine is based on an
 older ASCII fish tank program for DOS.
 https://robobunny.com/projects/asciiquarium/html/
 https://twitter.com/EmojiAquarium
-View this code at https://nostarch.com/big-book-small-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: extra-large, artistic, bext"""
 
 import sys, random, time

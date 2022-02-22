@@ -1,7 +1,7 @@
 """Mondrian Art Generator, by Al Sweigart al@inventwithpython.com
 Randomly generates art in the style of Piet Mondrian.
 More info at: https://en.wikipedia.org/wiki/Piet_Mondrian
-View this code at https://nostarch.com/big-book-small-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: large, artistic, bext"""
 
 import sys, random

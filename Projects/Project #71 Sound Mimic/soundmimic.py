@@ -2,7 +2,7 @@
 A pattern-matching game with sounds. Try to memorize an increasingly
 longer and longer pattern of letters. Inspired by the electronic game
 Simon.
-View this code at https://nostarch.com/big-book-small-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: short, beginner, game"""
 
 import random, sys, time

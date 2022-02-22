@@ -1,6 +1,6 @@
 """Periodic Table of Elements, by Al Sweigart al@inventwithpython.com
 Displays atomic information for all the elements.
-View this code at https://nostarch.com/big-book-small-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: short, science"""
 
 # Data from https://en.wikipedia.org/wiki/List_of_chemical_elements

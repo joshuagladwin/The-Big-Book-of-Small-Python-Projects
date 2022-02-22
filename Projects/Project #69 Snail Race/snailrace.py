@@ -1,6 +1,6 @@
 """Snail Race, by Al Sweigart al@inventwithpython.com
 Fast-paced snail racing action!
-View this code at https://nostarch.com/big-book-small-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: short, artistic, beginner, game, multiplayer"""
 
 import random, time, sys

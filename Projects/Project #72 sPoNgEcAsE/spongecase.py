@@ -1,6 +1,6 @@
 """sPoNgEcAsE, by Al Sweigart al@inventwithpython.com
 Translates English messages into sPOnGEtExT.
-View this code at https://nostarch.com/big-book-small-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: tiny, beginner, word"""
 
 import random

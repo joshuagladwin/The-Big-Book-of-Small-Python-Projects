@@ -1,6 +1,6 @@
 """Multiplication Table, by Al Sweigart al@inventwithpython.com
 Print a multiplication table.
-View this code at https://nostarch.com/big-book-small-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: tiny, beginner, math"""
 
 print('Multiplication Table, by Al Sweigart al@inventwithpython.com')

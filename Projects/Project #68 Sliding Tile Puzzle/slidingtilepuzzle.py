@@ -1,6 +1,6 @@
 """Sliding Tile Puzzle, by Al Sweigart al@inventwithpython.com
 Slide the numbered tiles into the correct order.
-View this code at https://nostarch.com/big-book-small-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: large, game, puzzle"""
 
 import random, sys

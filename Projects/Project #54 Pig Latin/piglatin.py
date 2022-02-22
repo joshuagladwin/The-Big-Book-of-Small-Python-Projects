@@ -1,6 +1,6 @@
 """Pig Latin, by Al Sweigart al@inventwithpython.com
 Translates English messages into Igpay Atinlay.
-View this code at https://nostarch.com/big-book-small-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: short, word"""
 
 try:

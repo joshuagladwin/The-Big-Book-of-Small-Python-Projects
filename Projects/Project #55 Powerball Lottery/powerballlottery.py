@@ -1,7 +1,7 @@
 """Powerball Lottery, by Al Sweigart al@inventwithpython.com
 A simulation of the lottery so you can experience the thrill of
 losing the lottery without wasting your money.
-View this code at https://nostarch.com/big-book-small-python-projects
+View the original code at https://nostarch.com/big-book-small-python-projects
 Tags: short, humor, simulation"""
 
 import random
